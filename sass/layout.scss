@@ -1,12 +1,20 @@
 // sass --watch sass/layout.scss:css/layout.css
 
-$primaryColor : #181D21;
-$secondaryColor : #FFF;
-$tertiaryColor : #AEB0B2;
+@import 'plugin/_bootstrap.scss';
+@import 'plugin/_swiper-bundle.scss';
+@import 'plugin/_bsnav.min.scss';
+
+@import 'config/_variable.scss';
 
 body{
   font-family: 'Roboto', sans-serif;
   // background-color: $primaryColor;
+}
+
+.bsnav-sticky.bsnav-sticky-slide.sticked{
+  background-color: $primaryColor;
+  z-index: 100;
+  padding-top: 0;
 }
 
 .navbar{
@@ -21,10 +29,6 @@ body{
       text-transform: uppercase;
       font-weight: 700;
     }
-
-    @media (max-width: 991.98px) { 
-      color: $primaryColor;
-     }
   }
 
   .navbar-brand{
@@ -39,7 +43,12 @@ body{
         color: #8d8d8d;
       }
     }
-    
+  }
+
+  @media (max-width: 991px) { 
+    .nav-link{
+      color: $primaryColor;
+    }
   }
 }
 
@@ -89,7 +98,7 @@ body{
 
   .slider-container{
     position: absolute;
-    z-index: 100;
+    z-index: 5;
     left: 50%;
     bottom: 10%;
     transform: translate(-50%, -50%);
@@ -125,12 +134,20 @@ body{
     font-weight: 700;
   }
 
-  @media (max-width: 575.98px) { 
+  @media (max-width: 575px) { 
     .banner__text{
       padding-top: 30%;
     }
+
+    .banner__detail{
+      margin-top: 50px;
+    }
+
+    .slider-container{
+     bottom: -15%;
    }
 
+   }
 }
 
 .featured{
@@ -193,7 +210,7 @@ body{
 
 .services{
   color: $secondaryColor;
-  height: 800px;
+  height: 90vh;
   position: relative;
   margin-top: 100px;
   // overflow: hidden;
@@ -289,7 +306,30 @@ body{
     }
   }
 
+  @media (max-width: 991px) {
+    .services__bg{
+      width: 100%;
+      height: 100vh;
+    }
 
+    .services__text{
+      top: 30px;
+      width: 100%;
+    }
+
+    .services__learn-more{
+      font-weight: 700;
+      margin-top: 50px;
+    }
+
+    .services__card{
+      top: 65%;
+    }
+
+    .slider-container{
+      background-color: #000000;
+    }
+  }
 }
 
 .agents{
@@ -375,7 +415,7 @@ body{
     margin: auto;
     padding: 2%;
     background-color: #000;
-    width: 20%;
+    width: 400px;
     color: $secondaryColor;
   }
 
@@ -397,7 +437,7 @@ body{
     margin: 0;
   }
 
-  @media (max-width: 575.98px) { 
+  @media (max-width: 575px) { 
     .search__text{
       padding: 5%;
       width: 90%;
@@ -452,7 +492,7 @@ body{
     padding-top: 5px;
   }
 
-  @media (max-width: 575.98px) { 
+  @media (max-width: 575px) { 
     padding-top: 50px;
     padding-bottom: 0;
   }

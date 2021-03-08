@@ -6,47 +6,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-  <!-- Swiper -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Fontawesome css -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
-  <!-- Custom css -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/fitodac/bsnav@master/dist/bsnav.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/layout.css">
+  <!-- UNIVERSAL CSS -->
+  <link rel="stylesheet" href="css/layout.css?=v2">
 
   <title>Resideo - Home</title>
 </head>
 
 <body>
-  <header>
-    <div class="navbar navbar-expand-lg bsnav bsnav-transparent bsnav-sticky bsnav-sticky-slide">
-      <div class="container">
-        <a class="navbar-brand" href="#">resideo</a>
-        <button class="navbar-toggler toggler-spring order-1"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse justify-content-md-center">
-          <ul class="navbar-nav navbar-mobile mr-0">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Properties</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Agents</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Themes</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
-          </ul>
-        </div>
-        <span class="navbar-text ml-auto">
-          <a class="nav-link" href="#"><i class="far fa-2x fa-user-circle"></i></a>
-        </span>
-      </div>
-    </div>
-  </header>
+  <?php require_once 'header.php' ?>
 
   <main>
     <section class="banner">
@@ -133,7 +107,7 @@
           Browse our latest hot offers
         </div>
         <div class="row featured__container">
-          <div class="col-lg-4 d-flex align-items-stretch">
+          <div class="col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
             <a href="/" class="card text-white">
               <img src="img/prop-4-1-gallery.jpg" class="card-img" alt="Apartement">
               <div class="card-img-overlay">
@@ -145,7 +119,7 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4 d-flex align-items-stretch">
+          <div class="col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
             <a href="/" class="card text-white">
               <img src="img/prop-5-1-gallery.jpg" class="card-img" alt="Apartement">
               <div class="card-img-overlay">
@@ -157,7 +131,7 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4 d-flex align-items-stretch">
+          <div class="col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
             <a href="/" class="card text-white">
               <img src="img/prop-6-1-gallery.jpg" class="card-img" alt="Apartement">
               <div class="card-img-overlay">
@@ -171,7 +145,7 @@
           </div>
         </div>
         <div class="row featured__container mt-4">
-          <div class="col-lg-4 d-flex align-items-stretch">
+          <div class="col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
             <a href="/" class="card text-white">
               <img src="img/prop-10-1-gallery.jpg" class="card-img" alt="Apartement">
               <div class="card-img-overlay">
@@ -183,7 +157,7 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4 d-flex align-items-stretch">
+          <div class="col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
             <a href="/" class="card text-white">
               <img src="img/prop-11-1-gallery.jpg" class="card-img" alt="Apartement">
               <div class="card-img-overlay">
@@ -195,7 +169,7 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4 d-flex align-items-stretch">
+          <div class="col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
             <a href="/" class="card text-white">
               <img src="img/prop-12-1-gallery.jpg" class="card-img" alt="Apartement">
               <div class="card-img-overlay">
@@ -232,7 +206,7 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="card text-center">
-                      <img src="img/service-icon-1-white.svg" class="card-img-top mx-auto" alt="...">
+                      <img src="img/service-icon-1-white.svg" class="card-img-top mx-auto" alt="resideo">
                       <div class="card-body">
                         <h5 class="card-title">Find your future home</h5>
                         <p class="card-text">We help you find a new home by offering a smart real estate experience</p>
@@ -241,7 +215,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="card text-center">
-                      <img src="img/service-icon-2-white.svg" class="card-img-top mx-auto" alt="...">
+                      <img src="img/service-icon-2-white.svg" class="card-img-top mx-auto" alt="resideo">
                       <div class="card-body">
                         <h5 class="card-title">Experience agents</h5>
                         <p class="card-text">Find an agent who knows your market best</p>
@@ -250,7 +224,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="card text-center">
-                      <img src="img/service-icon-3-white.svg" class="card-img-top mx-auto" alt="...">
+                      <img src="img/service-icon-3-white.svg" class="card-img-top mx-auto" alt="resideo">
                       <div class="card-body">
                         <h5 class="card-title">Buy or rent homes</h5>
                         <p class="card-text">Millions of houses and apartements in your favourite cities</p>
@@ -259,7 +233,7 @@
                   </div>
                   <div class="swiper-slide">
                     <div class="card text-center">
-                      <img src="img/service-icon-4-white.svg" class="card-img-top mx-auto" alt="...">
+                      <img src="img/service-icon-4-white.svg" class="card-img-top mx-auto" alt="resideo">
                       <div class="card-body">
                         <h5 class="card-title">Nice Pictures</h5>
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, consectetur!</p>
@@ -286,7 +260,7 @@
           Meet the best real estate agents
         </div>
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-md-6 col-lg-3">
             <div class="agents__wrapper">
               <img src="img/agent-1.jpg" alt="resideo" class="agents__image">
               <div class="agents__text text-center">
@@ -295,7 +269,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-md-6 col-lg-3">
             <div class="agents__wrapper">
               <img src="img/agent-2.jpg" alt="resideo" class="agents__image">
               <div class="agents__text text-center">
@@ -304,7 +278,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-md-6 col-lg-3">
             <div class="agents__wrapper">
               <img src="img/agent-3.jpg" alt="resideo" class="agents__image">
               <div class="agents__text text-center">
@@ -313,7 +287,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-md-6 col-lg-3">
             <div class="agents__wrapper">
               <img src="img/agent-4.jpg" alt="resideo" class="agents__image">
               <div class="agents__text text-center">
@@ -337,80 +311,9 @@
         <p class="search__now">SEARCH NOW -----</p>
       </div>
     </section>
-    <section class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="footer__profile">
-              <h5 class="footer__title">resideo.</h5>
-              <p class="footer__desc">
-                90 Fifth Avenue, 3rd Floor <br>
-                San Fransisco, CA 1980 <br>
-                (123) 456-7890 <br>
-              </p>
-              <div class="footer__social">
-                <a href="/" class="fab fa-instagram mr-4"></a>
-                <a href="/" class="fab fa-facebook-square mr-4"></a>
-                <a href="/" class="fab fa-twitter mr-4"></a>
-              </div>
-              <div class="footer__terms">
-                <p>Terms & Conditions and Privacy Policy</p>
-              </div>
-              <div class="footer__copyright">
-                © Resideo. All Right Reserved. 2019
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <h6 class="footer__subtitle">Company</h6>
-            <p class="footer__desc">
-              About Us <br>
-              Agents <br>
-              Blog <br>
-              Demos <br>
-              Contact Us
-            </p>
-          </div>
-          <div class="col-lg-3">
-            <h6 class="footer__subtitle">Actions</h6>
-            <p class="footer__desc">
-              Buy Properties <br>
-              Rents Properties <br>
-              Sell Properties
-            </p>
-          </div>
-          <div class="col-lg-3">
-            <h6 class="footer__subtitle">Explore</h6>
-            <p class="footer__desc">
-              Homes for Rent <br>
-              Apartements for Rent <br>
-              Homes for Sale <br>
-              Apartement for Sale <br>
-              CRM
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
 
-  <footer>
-  </footer>
-
-
-  <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-  <!-- BSNAV -->
-  <script src="https://cdn.jsdelivr.net/gh/fitodac/bsnav@master/dist/bsnav.min.js"></script>
-  <div class="bsnav-mobile">
-    <div class="bsnav-mobile-overlay"></div>
-    <div class="navbar"></div>
-  </div>
-
-  <!-- Swiper -->
-  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="js/script.js"></script>
+  <?php require_once 'footer.php' ?>
 </body>
 
 </html>

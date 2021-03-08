@@ -1,0 +1,21 @@
+<header>
+  <div class="navbar navbar-expand-lg bsnav bsnav-transparent bsnav-sticky bsnav-sticky-slide">
+    <div class="container">
+      <a class="navbar-brand" href="#">resideo</a>
+      <button class="navbar-toggler toggler-spring order-1"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse justify-content-md-center">
+        <ul class="navbar-nav navbar-mobile mr-0">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Properties</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Agents</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Themes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <span class="navbar-text ml-auto">
+        <a class="nav-link" href="#"><i class="far fa-2x fa-user-circle"></i></a>
+      </span>
+    </div>
+  </div>
+</header>

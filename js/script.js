@@ -23,17 +23,21 @@ var swiper = new Swiper('.swiper-services', {
     prevEl: '.swiper-button-prev',
   },
   breakpoints: {
-    640: {
-      slidesPerView: 1,
+    576: {
+      slidesPerView: 2,
       spaceBetween: 10,
     },
     768: {
       slidesPerView: 2,
       spaceBetween: 20,
     },
-    1024: {
-      slidesPerView: 3,
+    992: {
+      slidesPerView: 2,
       spaceBetween: 30,
     },
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    }
   }
 });
