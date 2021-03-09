@@ -1,0 +1,230 @@
+// sass --watch scss:css
+
+@import 'config.scss';
+
+@import 'plugin/_bootstrap.scss';
+@import 'plugin/_bsnav.min.scss';
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  // background-color: $primaryColor;
+}
+
+.bsnav-sticky.bsnav-sticky-slide.sticked{
+  background-color: $primaryColor;
+  z-index: 100;
+  padding-top: 0;
+}
+
+.bsnav-sticky.bsnav-sticky-slide{
+  transition: background-color .3s, padding-top .2s;
+}
+
+.bsnav-mobile .navbar{
+  background: $primaryColor;
+}
+
+.navbar .nav-link{
+  color: $secondaryColor;
+}
+
+.separator{
+  &::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -70px;
+    transform: translateY(-50%);
+    display: inline-block;
+    background-color: lightblue;
+    width: 50px;
+    height: 2px;
+  }
+
+  &--light::after{
+    @extend .separator;
+    background-color: $secondaryColor;
+  }
+
+  &--dark::after{
+    @extend .separator;
+    background-color: $primaryColor;
+  }
+
+}
+
+.navbar{
+  padding-top: 20px;
+  &__login{
+    color: $secondaryColor;
+    transition: all .3s ease;
+    &:hover{
+      color: #8d8d8d;
+    }
+  }
+
+  .navbar-collapse{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .nav-item{
+    color: $secondaryColor;
+    .nav-link:hover{
+      color: #8d8d8d;
+    }
+
+    .nav-link{
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+
+  .navbar-brand{
+    font-weight: 700;
+    color: $secondaryColor;
+  }
+
+  .navbar-toggler .navbar-toggler-icon, .navbar-toggler .navbar-toggler-icon::after, .navbar-toggler .navbar-toggler-icon::before{
+    background-color: $secondaryColor;
+  }
+
+  @media (max-width: 991px) { 
+    .nav-link{
+      color: $secondaryColor;
+    }
+  }
+}
+
+.featured{
+  padding-top: 100px;
+
+  &__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  &__subtitle{
+    color: $tertiaryColor;
+  }
+
+  .card{
+    min-height: 320px;
+    background-color: $primaryColor;
+    border: none;
+    &:hover .card-img{
+      opacity: 0.3;
+    }
+  }
+
+  .card-img{
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s ease;
+  }
+
+  .card-img-overlay{
+    line-height: 20px;
+  }
+
+  .card-title{
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .card-prices{
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .card-text{
+    font-size: 14px;
+    color: $tertiaryColor;
+  }
+
+  .card-text-container{
+    position: absolute;
+    bottom: 10px;
+  }
+
+  &__browse{
+    font-weight: 500;
+    color: $primaryColor;
+    display: inline-block;
+    position: relative;
+    
+    &:hover, &:focus-visible{
+      outline: none;
+      color: #8d8d8d;
+      text-decoration: none;
+    }
+  
+  }
+
+}
+
+.footer{
+  padding-top: 100px;
+  background-color: #000000;
+  width: 100%;
+  padding-bottom: 100px;
+  color: $secondaryColor;
+
+  &__title{
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  &__desc{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+
+  &__link{
+    color: $secondaryColor;
+    &:hover, &:focus-visible{
+      outline: none;
+      color: #8d8d8d;
+      text-decoration: none;
+    }
+  }
+
+  &__social a{
+    color: $secondaryColor;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all .3s ease;
+
+    &:hover{
+      color: #8d8d8d;
+    }
+  }
+
+  &__terms{
+    font-size: 12px;
+    padding-top: 30px;
+  }
+
+  &__copyright{
+    margin-top: -10px;
+    color: $tertiaryColor;
+    font-size: 12px;
+  }
+
+  &__subtitle{
+    font-weight: 700;
+    padding-top: 5px;
+  }
+
+  @media (max-width: 575px) { 
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+}
+
+
+

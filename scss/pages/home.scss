@@ -1,0 +1,379 @@
+@import '../config.scss';
+@import '../plugin/swiper-bundle';
+
+.banner{
+  background-color: $primaryColor;
+  color: $secondaryColor;
+  width: 100%;
+  position: relative;
+
+  &__text{
+    padding: 20% 0;
+    z-index: 5;
+  }
+
+  &__title{
+    color: $secondaryColor;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+  }
+
+  &__subtitle{
+    color: $tertiaryColor;
+  }
+
+  &__prices{
+    font-size: 32px;
+  }
+
+  &__detail{
+    font-weight: 700;
+    margin-top: 150px;
+    display: inline-block;
+    color: $secondaryColor;
+    position: relative;
+
+    &:hover, &:focus-visible{
+      outline: none;
+      color: #8d8d8d;
+      text-decoration: none;
+    }
+  }
+
+  &__img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+  }
+
+  .swiper-container{
+    height: 100%;
+  }
+
+  .slider-container{
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 170px;
+  }
+
+  .swiper-pagination{
+    position: unset;
+    top: -40px;
+    font-weight: 700;
+  }
+
+  .swiper-button-prev, .swiper-button-next{
+    color: $secondaryColor;
+    background-color: black;
+    padding: 38px;
+
+    &::after, &:focus-visible{
+      display: none;
+      outline: none;
+    }
+  }
+
+  @media (max-width: 575px) { 
+    &__text{
+      padding-top: 30%;
+    }
+
+    &__detail{
+      margin-top: 50px;
+    }
+
+    .slider-container{
+     bottom: -15%;
+    }
+
+    &__img{
+        img{
+          opacity: 0.5;
+        }
+    }
+
+   }
+}
+
+.services{
+  color: $secondaryColor;
+  padding: 300px 0;
+  position: relative;
+  margin-top: 100px;
+  
+  &__bg{
+    position: absolute;
+    z-index: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+  }
+
+  &__text{
+    width: 100%;
+  }
+
+  &__title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+  }
+
+  &__subtitle{
+    color: $tertiaryColor;
+  }
+
+  &__learn-more{
+    font-weight: 700;
+    margin-top: 100px;
+    display: inline-block;
+    position: relative;
+    color: $secondaryColor;
+
+    &:hover, &:focus-visible{
+      outline: none;
+      color: #8d8d8d;
+      text-decoration: none;
+    }
+  }
+
+  &__card{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .card{
+    background-color: #000000;
+    padding: 10%;
+    min-height: 390px;
+  }
+
+  .card-img-top{
+    width: 40%;
+  }
+
+  .card-title{
+    font-weight: 700;
+    margin-top: 40px;
+  }
+
+  .card-text{
+    color: $tertiaryColor;
+    font-size: 14px;
+  }
+
+  .slider-container{
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 50px;
+  }
+
+  .swiper-pagination{
+    position: unset;
+    top: -40px;
+    font-weight: 700;
+  }
+
+  .swiper-button-prev, .swiper-button-next{
+    color: rgba($color: $tertiaryColor, $alpha: 0.6);
+    background-color: $secondaryColor;
+    padding: 38px;
+
+    &:hover{
+      color: rgba($color: $tertiaryColor, $alpha: 1);
+    }
+
+    &::after, &:focus-visible{
+      display: none;
+    }
+  }
+
+  @media (max-width: 575px) { 
+
+    &__detail{
+      margin-top: 50px;
+    }
+
+    .slider-container{
+     bottom: -15%;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+      background-color: #000000;
+    }
+
+   }
+
+  @media (max-width: 991px) {
+    &__bg{
+      width: 100%;
+    }
+
+    &__text{
+      top: -250px;
+      width: 100%;
+    }
+
+    &__learn-more{
+      font-weight: 700;
+      margin-top: 50px;
+    }
+
+    &__card{
+      top: 60%;
+    }
+  }
+}
+
+.agents{
+  padding-top: 100px;
+
+  &__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  &__subtitle{
+    color: $tertiaryColor;
+  }
+
+  &__wrapper{
+    height: 300px;
+    position: relative;
+    margin-bottom: 50px;
+    overflow: hidden;
+  }
+
+  &__image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: top;
+    transition: .3s;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+
+  &__text{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000000;
+    width: 80%;
+    padding: 5% 10%;
+    color: $secondaryColor;
+    border-radius: 5px;
+  }
+
+  &__name{
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  &__telp{
+    color: $tertiaryColor;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  &__all{
+    font-weight: 700;
+    margin-top: 50px;
+    color: $primaryColor;
+    display: inline-block;
+    position: relative;
+
+    &:hover, &:focus-visible{
+      outline: none;
+      color: #8d8d8d;
+      text-decoration: none;
+    }
+  }
+}
+
+.search{
+  margin-top: 100px;
+  background-image: url(../../img/cta-fig-3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  &::after{
+    content: '';
+    display: block;
+    background-color: black;
+    opacity: 0.2;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  &__text{
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    padding: 2%;
+    background-color: #000;
+    width: 400px;
+    color: $secondaryColor;
+  }
+
+  &__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  &__desc{
+    color: $tertiaryColor;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  &__now{
+    font-weight: 700;
+    margin: 70px 0 0 0;
+    display: inline-block;
+    position: relative;
+    color: $secondaryColor;
+
+    &:hover, &:focus-visible{
+      outline: none;
+      color: #8d8d8d;
+      text-decoration: none;
+    }
+  }
+
+  @media (max-width: 575px) { 
+    &__text{
+      padding: 5%;
+      width: 90%;
+    }
+  }
+}

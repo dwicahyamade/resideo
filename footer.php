@@ -26,29 +26,29 @@
         <div class="col-lg-3">
           <h6 class="footer__subtitle">Company</h6>
           <p class="footer__desc">
-            About Us <br>
-            Agents <br>
-            Blog <br>
-            Demos <br>
-            Contact Us
+            <a href="/" class="footer__link">About Us </a><br>
+            <a href="/" class="footer__link">Agents </a><br>
+            <a href="/" class="footer__link">Blog </a><br>
+            <a href="/" class="footer__link">Demos </a><br>
+            <a href="/" class="footer__link">Contact Us</a>
           </p>
         </div>
         <div class="col-lg-3">
           <h6 class="footer__subtitle">Actions</h6>
           <p class="footer__desc">
-            Buy Properties <br>
-            Rents Properties <br>
-            Sell Properties
+            <a href="/" class="footer__link">Buy Properties </a><br>
+            <a href="/" class="footer__link">Rents Properties </a><br>
+            <a href="/" class="footer__link">Sell Properties</a>
           </p>
         </div>
         <div class="col-lg-2">
           <h6 class="footer__subtitle">Explore</h6>
           <p class="footer__desc">
-            Homes for Rent <br>
-            Apartements for Rent <br>
-            Homes for Sale <br>
-            Apartement for Sale <br>
-            CRM
+            <a href="/" class="footer__link">Homes for Rent </a><br>
+            <a href="/" class="footer__link">Apartements for Rent </a><br>
+            <a href="/" class="footer__link">Homes for Sale </a><br>
+            <a href="/" class="footer__link">Apartement for Sale </a><br>
+            <a href="/" class="footer__link">CRM</a>
           </p>
         </div>
       </div>
@@ -65,7 +65,3 @@
   <div class="bsnav-mobile-overlay"></div>
   <div class="navbar"></div>
 </div>
-
-<!-- Swiper -->
-<script src="js/swiper-bundle.js"></script>
-<script src="js/script.js"></script>

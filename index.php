@@ -14,7 +14,10 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
   <!-- UNIVERSAL CSS -->
-  <link rel="stylesheet" href="css/layout.css?=v2">
+  <link rel="stylesheet" href="css/layout.css">
+
+  <!--  THIS PAGE ONLY CSS -->
+  <link rel="stylesheet" href="css/pages/home.css">
 
   <title>Resideo - Home</title>
 </head>
@@ -33,53 +36,53 @@
                   <h1 class="banner__title">
                     Colorful Little Apartement
                   </h1>
-                  <div class="banner__subtitle mt-4">
+                  <p class="banner__subtitle mt-4">
                     1 BD | 1 BA | 500 SF
-                  </div>
-                  <div class="banner__prices mt-5">
+                  </p>
+                  <p class="banner__prices mt-5">
                     $2,675
-                  </div>
-                  <div class="banner__detail">
-                    VIEW DETAILS -----
-                  </div>
+                  </p>
+                  <a href="/" class="banner__detail separator--light">
+                    VIEW DETAILS
+                  </a>
                 </div>
                 <div class="swiper-slide">
                   <h1 class="banner__title">
                     Chic Apartement In Downtown
                   </h1>
-                  <div class="banner__subtitle mt-4">
+                  <p class="banner__subtitle mt-4">
                     1 BD | 1 BA | 500 SF
-                  </div>
-                  <div class="banner__prices mt-5">
+                  </p>
+                  <p class="banner__prices mt-5">
                     $96,000
-                  </div>
-                  <div class="banner__detail">
-                    VIEW DETAILS -----
-                  </div>
+                  </p>
+                  <a href="/" class="banner__detail separator--light">
+                    VIEW DETAILS
+                  </a>
                 </div>
                 <div class="swiper-slide">
-                  <div class="banner__title">
+                  <h1 class="banner__title">
                     Cozy Two Bedroom Apartement
-                  </div>
-                  <div class="banner__subtitle mt-4">
+                  </h1>
+                  <p class="banner__subtitle mt-4">
                     1 BD | 1 BA | 500 SF
-                  </div>
-                  <div class="banner__prices mt-5">
+                  </p>
+                  <p class="banner__prices mt-5">
                     $89,000
-                  </div>
-                  <div class="banner__detail">
-                    VIEW DETAILS -----
-                  </div>
+                  </p>
+                  <a href="/" class="banner__detail separator--light">
+                    VIEW DETAILS
+                  </a>
                 </div>
               </div>
             </div>
           </div>
           <div class="slider-container">
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"><i class="fas fa-2x fa-arrow-right"></i></div>
             <div class="swiper-button-prev"><i class="fas fa-2x fa-arrow-left"></i></div>
+            <div class="swiper-button-next"><i class="fas fa-2x fa-arrow-right"></i></div>
           </div>
-          <div class="col-6 banner__img">
+          <div class="col-12 col-lg-6 banner__img">
             <div class="swiper-container swiper-banner">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -143,8 +146,6 @@
               </div>
             </a>
           </div>
-        </div>
-        <div class="row featured__container mt-4">
           <div class="col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
             <a href="/" class="card text-white">
               <img src="img/prop-10-1-gallery.jpg" class="card-img" alt="Apartement">
@@ -182,7 +183,7 @@
             </a>
           </div>
         </div>
-        <p class="browse mt-5">BROWSE ALL -----</p>
+        <a href="/" class="featured__browse separator--dark mt-5">BROWSE ALL</a>
       </div>
     </section>
     <section class="services">
@@ -196,9 +197,9 @@
             <div class="services__subtitle">
               We offer perfecr real estate services
             </div>
-            <div class="services__learn-more">
-              LEARN MORE -----
-            </div>
+            <a href="/" class="services__learn-more separator--light">
+              LEARN MORE
+            </a>
           </div>
           <div class="col-lg-7 services__card">
             <div class="row no-gutters">
@@ -244,8 +245,8 @@
               </div>
             </div>
             <div class="slider-container">
-              <div class="swiper-button-next"><i class="fas fa-2x fa-arrow-right"></i></div>
               <div class="swiper-button-prev"><i class="fas fa-2x fa-arrow-left"></i></div>
+              <div class="swiper-button-next"><i class="fas fa-2x fa-arrow-right"></i></div>
             </div>
           </div>
         </div>
@@ -263,41 +264,41 @@
           <div class="col-md-6 col-lg-3">
             <div class="agents__wrapper">
               <img src="img/agent-1.jpg" alt="resideo" class="agents__image">
-              <div class="agents__text text-center">
-                <h5 class="agents__name">Scoot Goodwin</h5>
-                <p class="agents__telp"><i class="fas fa-phone"></i> (123) 456-7890</p>
-              </div>
+            </div>
+            <div class="agents__text text-center">
+              <h5 class="agents__name">Scoot Goodwin</h5>
+              <p class="agents__telp"><i class="fas fa-phone"></i> (123) 456-7890</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="agents__wrapper">
               <img src="img/agent-2.jpg" alt="resideo" class="agents__image">
-              <div class="agents__text text-center">
-                <h5 class="agents__name">Alayna Becker</h5>
-                <p class="agents__telp"><i class="fas fa-phone"></i> (123) 456-7890</p>
-              </div>
+            </div>
+            <div class="agents__text text-center">
+              <h5 class="agents__name">Alayna Becker</h5>
+              <p class="agents__telp"><i class="fas fa-phone"></i> (123) 456-7890</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="agents__wrapper">
               <img src="img/agent-3.jpg" alt="resideo" class="agents__image">
-              <div class="agents__text text-center">
-                <h5 class="agents__name">Melvin Blackwell</h5>
-                <p class="agents__telp"><i class="fas fa-phone"></i> (123) 456-7890</p>
-              </div>
+            </div>
+            <div class="agents__text text-center">
+              <h5 class="agents__name">Melvin Blackwell</h5>
+              <p class="agents__telp"><i class="fas fa-phone"></i> (123) 456-7890</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="agents__wrapper">
               <img src="img/agent-4.jpg" alt="resideo" class="agents__image">
-              <div class="agents__text text-center">
-                <h5 class="agents__name">Erika Tillman</h5>
-                <p class="agents__telp"><i class="fas fa-phone"></i> (123) 456-7890</p>
-              </div>
+            </div>
+            <div class="agents__text text-center">
+              <h5 class="agents__name">Erika Tillman</h5>
+              <p class="agents__telp"><i class="fas fa-phone"></i> (123) 456-7890</p>
             </div>
           </div>
         </div>
-        <p class="agents__all">SEE ALL AGENTS -----</p>
+        <a href="/" class="agents__all separator--dark">SEE ALL AGENTS</a>
       </div>
     </section>
     <section class="search">
@@ -308,12 +309,16 @@
         <div class="search__desc">
           Power your search with our Resideo real estate platform, for timely listings and seamless experience.
         </div>
-        <p class="search__now">SEARCH NOW -----</p>
+        <a href="/" class="search__now separator--light">SEARCH NOW</a>
       </div>
     </section>
   </main>
 
   <?php require_once 'footer.php' ?>
+
+  <!-- Swiper -->
+  <script src="js/swiper-bundle.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
