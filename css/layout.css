@@ -12166,7 +12166,7 @@ body {
 }
 
 .bsnav-sticky.bsnav-sticky-slide.sticked {
-  background-color: #181D21;
+  background-color: #000000;
   z-index: 100;
   padding-top: 0;
 }
@@ -12176,11 +12176,15 @@ body {
 }
 
 .bsnav-mobile .navbar {
-  background: #181D21;
+  background: #000000;
 }
 
 .navbar .nav-link {
   color: #FFF;
+}
+
+.navbar-toggler:focus-visible {
+  outline: none;
 }
 
 .separator::after, .separator--dark::after, .separator--light::after {
@@ -12219,8 +12223,9 @@ body {
 .navbar .nav-item {
   color: #FFF;
 }
-.navbar .nav-item .nav-link:hover {
+.navbar .nav-item .nav-link:hover, .navbar .nav-item .nav-link:active, .navbar .nav-item .nav-link:focus {
   color: #8d8d8d;
+  outline: none;
 }
 .navbar .nav-item .nav-link {
   text-transform: uppercase;
@@ -12237,61 +12242,6 @@ body {
   .navbar .nav-link {
     color: #FFF;
   }
-}
-
-.featured {
-  padding-top: 100px;
-}
-.featured__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-}
-.featured__subtitle {
-  color: #AEB0B2;
-}
-.featured .card {
-  min-height: 320px;
-  background-color: #181D21;
-  border: none;
-}
-.featured .card:hover .card-img {
-  opacity: 0.3;
-}
-.featured .card-img {
-  height: 100%;
-  object-fit: cover;
-  transition: all 0.3s ease;
-}
-.featured .card-img-overlay {
-  line-height: 20px;
-}
-.featured .card-title {
-  font-weight: 500;
-  font-size: 16px;
-}
-.featured .card-prices {
-  font-weight: 700;
-  font-size: 24px;
-}
-.featured .card-text {
-  font-size: 14px;
-  color: #AEB0B2;
-}
-.featured .card-text-container {
-  position: absolute;
-  bottom: 10px;
-}
-.featured__browse {
-  font-weight: 500;
-  color: #181D21;
-  display: inline-block;
-  position: relative;
-}
-.featured__browse:hover, .featured__browse:focus-visible {
-  outline: none;
-  color: #8d8d8d;
-  text-decoration: none;
 }
 
 .footer {
@@ -12313,6 +12263,7 @@ body {
 }
 .footer__link {
   color: #FFF;
+  transition: 0.3s;
 }
 .footer__link:hover, .footer__link:focus-visible {
   outline: none;
@@ -12331,6 +12282,15 @@ body {
 .footer__terms {
   font-size: 12px;
   padding-top: 30px;
+  margin-bottom: 0;
+}
+.footer__terms a {
+  color: #FFF;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer__terms a:hover {
+  color: #8d8d8d;
 }
 .footer__copyright {
   margin-top: -10px;
@@ -12340,6 +12300,7 @@ body {
 .footer__subtitle {
   font-weight: 700;
   padding-top: 5px;
+  font-size: 16px;
 }
 @media (max-width: 575px) {
   .footer {

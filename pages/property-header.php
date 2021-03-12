@@ -1,5 +1,5 @@
 <header>
-  <div class="navbar navbar-expand-lg bsnav bsnav-transparent bsnav-sticky bsnav-sticky-slide">
+  <div class="navbar navbar-expand-lg bsnav bsnav-dark pt-0">
     <div class="container">
       <a class="navbar-brand" href="#">resideo.</a>
       <button class="navbar-toggler toggler-spring order-1"><span class="navbar-toggler-icon"></span></button>

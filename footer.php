@@ -2,9 +2,9 @@
   <section class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 pb-3">
           <div class="footer__profile">
-            <h5 class="footer__title">resideo.</h5>
+            <h4 class="footer__title">resideo.</h4>
             <p class="footer__desc">
               90 Fifth Avenue, 3rd Floor <br>
               San Fransisco, CA 1980 <br>
@@ -15,16 +15,12 @@
               <a href="/" class="fab fa-facebook-square mr-4"></a>
               <a href="/" class="fab fa-twitter mr-4"></a>
             </div>
-            <div class="footer__terms">
-              <p>Terms & Conditions and Privacy Policy</p>
-            </div>
-            <div class="footer__copyright">
-              © Resideo. All Right Reserved. 2019
-            </div>
+            <p class="footer__terms"><a href="">Terms & Conditions</a> and <a href="">Privacy Policy</a></p>
+            <span class="footer__copyright">© Resideo. All Right Reserved. 2019</span>
           </div>
         </div>
         <div class="col-lg-3">
-          <h6 class="footer__subtitle">Company</h6>
+          <h5 class="footer__subtitle">Company</h5>
           <p class="footer__desc">
             <a href="/" class="footer__link">About Us </a><br>
             <a href="/" class="footer__link">Agents </a><br>
@@ -34,7 +30,7 @@
           </p>
         </div>
         <div class="col-lg-3">
-          <h6 class="footer__subtitle">Actions</h6>
+          <h5 class="footer__subtitle">Actions</h5>
           <p class="footer__desc">
             <a href="/" class="footer__link">Buy Properties </a><br>
             <a href="/" class="footer__link">Rents Properties </a><br>
@@ -42,7 +38,7 @@
           </p>
         </div>
         <div class="col-lg-2">
-          <h6 class="footer__subtitle">Explore</h6>
+          <h5 class="footer__subtitle">Explore</h5>
           <p class="footer__desc">
             <a href="/" class="footer__link">Homes for Rent </a><br>
             <a href="/" class="footer__link">Apartements for Rent </a><br>

@@ -12,7 +12,7 @@ body{
 }
 
 .bsnav-sticky.bsnav-sticky-slide.sticked{
-  background-color: $primaryColor;
+  background-color: #000000;
   z-index: 100;
   padding-top: 0;
 }
@@ -22,11 +22,17 @@ body{
 }
 
 .bsnav-mobile .navbar{
-  background: $primaryColor;
+  background: #000000;
 }
 
 .navbar .nav-link{
   color: $secondaryColor;
+}
+
+.navbar-toggler{
+  &:focus-visible{
+    outline: none;
+  }
 }
 
 .separator{
@@ -71,8 +77,9 @@ body{
   }
   .nav-item{
     color: $secondaryColor;
-    .nav-link:hover{
+    .nav-link:hover, .nav-link:active, .nav-link:focus{
       color: #8d8d8d;
+      outline: none;
     }
 
     .nav-link{
@@ -97,74 +104,6 @@ body{
   }
 }
 
-.featured{
-  padding-top: 100px;
-
-  &__title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-  }
-
-  &__subtitle{
-    color: $tertiaryColor;
-  }
-
-  .card{
-    min-height: 320px;
-    background-color: $primaryColor;
-    border: none;
-    &:hover .card-img{
-      opacity: 0.3;
-    }
-  }
-
-  .card-img{
-    height: 100%;
-    object-fit: cover;
-    transition: all .3s ease;
-  }
-
-  .card-img-overlay{
-    line-height: 20px;
-  }
-
-  .card-title{
-    font-weight: 500;
-    font-size: 16px;
-  }
-  
-  .card-prices{
-    font-weight: 700;
-    font-size: 24px;
-  }
-
-  .card-text{
-    font-size: 14px;
-    color: $tertiaryColor;
-  }
-
-  .card-text-container{
-    position: absolute;
-    bottom: 10px;
-  }
-
-  &__browse{
-    font-weight: 500;
-    color: $primaryColor;
-    display: inline-block;
-    position: relative;
-    
-    &:hover, &:focus-visible{
-      outline: none;
-      color: #8d8d8d;
-      text-decoration: none;
-    }
-  
-  }
-
-}
-
 .footer{
   padding-top: 100px;
   background-color: #000000;
@@ -186,6 +125,8 @@ body{
 
   &__link{
     color: $secondaryColor;
+    transition: .3s;
+    
     &:hover, &:focus-visible{
       outline: none;
       color: #8d8d8d;
@@ -207,6 +148,16 @@ body{
   &__terms{
     font-size: 12px;
     padding-top: 30px;
+    margin-bottom: 0;
+    & a{
+      color: $secondaryColor;
+      text-decoration: none;
+      transition: .3s;
+
+      &:hover{
+        color: #8d8d8d;
+      }
+    }
   }
 
   &__copyright{
@@ -218,6 +169,7 @@ body{
   &__subtitle{
     font-weight: 700;
     padding-top: 5px;
+    font-size: 16px;
   }
 
   @media (max-width: 575px) { 
