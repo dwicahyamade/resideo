@@ -23,7 +23,7 @@
 </head>
 
 <body>
-  <?php require_once 'pages/property-header.php' ?>
+  <?php require_once 'header.php' ?>
 
   <main>
     <div class="container">
@@ -83,73 +83,67 @@
             </div>
             <div class="row properties">
               <div class="col-lg-6 d-flex align-items-stretch pb-3 pb-lg-3">
-                <a href="#" class="card properties__card text-white">
+                <a href="property-detail.php" class="card properties__card text-white">
                   <img src="img/prop-4-1-gallery.jpg" class="card-img properties__img" alt="Apartement">
                   <div class="card-img-overlay properties__img-overlay">
                     <div class="card-text-container properties__text-container">
                       <h3 class="properties__title">Chic Apartement In Downtown</h3>
                       <p class="properties__prices">$890,000</p>
-                      <p class="properties__text">2 BD | 2 BA | 920 SF</p>
                     </div>
                   </div>
                 </a>
               </div>
               <div class="col-lg-6 d-flex align-items-stretch pb-3 pb-lg-3">
-                <a href="#" class="card properties__card text-white">
+                <a href="property-detail.php" class="card properties__card text-white">
                   <img src="img/prop-5-1-gallery.jpg" class="card-img properties__img" alt="Apartement">
                   <div class="card-img-overlay properties__img-overlay">
                     <div class="card-text-container properties__text-container">
                       <h3 class="properties__title">Colorful Little Apartement</h3>
                       <p class="properties__prices">$2,675</p>
-                      <p class="properties__text">1 BD | 2 BA | 500 SF</p>
                     </div>
                   </div>
                 </a>
               </div>
               <div class="col-lg-6 d-flex align-items-stretch pb-3 pb-lg-3">
-                <a href="#" class="card properties__card text-white">
+                <a href="property-detail.php" class="card properties__card text-white">
                   <img src="img/prop-6-1-gallery.jpg" class="card-img properties__img" alt="Apartement">
                   <div class="card-img-overlay properties__img-overlay">
                     <div class="card-text-container properties__text-container">
                       <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
                       <p class="properties__prices">$960,000</p>
-                      <p class="properties__text">2 BD | 2 BA | 870 SF</p>
                     </div>
                   </div>
                 </a>
               </div>
               <div class="col-lg-6 d-flex align-items-stretch pb-3 pb-lg-3">
-                <a href="#" class="card properties__card text-white">
+                <a href="property-detail.php" class="card properties__card text-white">
                   <img src="img/prop-10-1-gallery.jpg" class="card-img properties__img" alt="Apartement">
                   <div class="card-img-overlay properties__img-overlay">
                     <div class="card-text-container properties__text-container">
                       <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
                       <p class="properties__prices">$960,000</p>
-                      <p class="properties__text">2 BD | 2 BA | 870 SF</p>
                     </div>
                   </div>
                 </a>
               </div>
               <div class="col-lg-6 d-flex align-items-stretch pb-3 pb-lg-3">
-                <a href="#" class="card properties__card text-white">
+                <a href="property-detail.php" class="card properties__card text-white">
                   <img src="img/prop-11-1-gallery.jpg" class="card-img properties__img" alt="Apartement">
                   <div class="card-img-overlay properties__img-overlay">
                     <div class="card-text-container properties__text-container">
                       <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
                       <p class="properties__prices">$960,000</p>
-                      <p class="properties__text">2 BD | 2 BA | 870 SF</p>
                     </div>
                   </div>
                 </a>
               </div>
               <div class="col-lg-6 d-flex align-items-stretch pb-3 pb-lg-3">
-                <a href="#" class="card properties__card text-white">
+                <a href="property-detail.php" class="card properties__card text-white">
                   <img src="img/prop-12-1-gallery.jpg" class="card-img properties__img" alt="Apartement">
                   <div class="card-img-overlay properties__img-overlay">
                     <div class="card-text-container properties__text-container">
                       <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
                       <p class="properties__prices">$960,000</p>
-                      <p class="properties__text">2 BD | 2 BA | 870 SF</p>
                     </div>
                   </div>
                 </a>

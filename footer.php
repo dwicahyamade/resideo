@@ -2,7 +2,7 @@
   <section class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 pb-3">
+        <div class="col-md-6 col-lg-4 pb-3">
           <div class="footer__profile">
             <h4 class="footer__title">resideo.</h4>
             <p class="footer__desc">
@@ -19,7 +19,7 @@
             <span class="footer__copyright">© Resideo. All Right Reserved. 2019</span>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-6 col-lg-3">
           <h5 class="footer__subtitle">Company</h5>
           <p class="footer__desc">
             <a href="/" class="footer__link">About Us </a><br>
@@ -29,7 +29,7 @@
             <a href="/" class="footer__link">Contact Us</a>
           </p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-6 col-lg-3">
           <h5 class="footer__subtitle">Actions</h5>
           <p class="footer__desc">
             <a href="/" class="footer__link">Buy Properties </a><br>
@@ -37,7 +37,7 @@
             <a href="/" class="footer__link">Sell Properties</a>
           </p>
         </div>
-        <div class="col-lg-2">
+        <div class="col-md-6 col-lg-2">
           <h5 class="footer__subtitle">Explore</h5>
           <p class="footer__desc">
             <a href="/" class="footer__link">Homes for Rent </a><br>

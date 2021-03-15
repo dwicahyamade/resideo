@@ -44,6 +44,7 @@
     display: inline-block;
     color: $secondaryColor;
     position: relative;
+    transition: .3s;
 
     &:hover{
       color: #8d8d8d;
@@ -126,12 +127,14 @@
 
 .properties{
   padding-top: 100px;
+  @include imageRatio(350, 320, true);
 
   &__browse{
     font-weight: 700;
     color: $primaryColor;
     display: inline-block;
     position: relative;
+    transition: .3s;
     
     &:hover, &:focus-visible{
       outline: none;
@@ -141,19 +144,17 @@
   
   }
 
-  &__card{
-    min-height: 320px;
+  &__image-container{
     background-color: $primaryColor;
     border: none;
-    &:hover .card-img{
+    max-width: none;
+    &:hover .properties__image{
       opacity: 0.3;
     }
   }
 
-  &__img{
-    height: 100%;
-    object-fit: cover;
-    transition: all .3s ease;
+  &__image{
+    transition: .3s;
   }
 
   &__img-overlay{
@@ -179,7 +180,6 @@
     font-size: 14px;
     color: $tertiaryColor;
   }
-
 }
 
 .services{
@@ -208,6 +208,7 @@
     display: inline-block;
     position: relative;
     color: $secondaryColor;
+    transition: .3s;
 
     &:hover, &:focus-visible{
       outline: none;
@@ -219,6 +220,7 @@
   &__card{
     position: absolute;
     right: 0px;
+    // left: calc((100% - 1140px) - 370px + 370px);
     top: 50%;
     transform: translateY(-50%);
   }
@@ -311,13 +313,12 @@
 
 .agents{
   padding-top: 100px;
+  @include imageRatio(255, 300, true);
 
-  &__wrapper{
-    height: 300px;
-    position: relative;
+  &__image-container{
     margin-bottom: 50px;
     overflow: hidden;
-
+    max-width: none;
     &:hover .agents__image{
       transform: scale(1.1);
     }
@@ -332,12 +333,8 @@
   }
 
   &__image{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
     object-position: top;
     transition: .3s;
-    opacity: 1;
   }
 
   &__social{
@@ -399,6 +396,7 @@
     color: $primaryColor;
     display: inline-block;
     position: relative;
+    transition: .3s;
 
     &:hover, &:focus-visible{
       outline: none;
@@ -461,6 +459,7 @@
     display: inline-block;
     position: relative;
     color: $secondaryColor;
+    transition: .3s;
 
     &:hover, &:focus-visible{
       outline: none;

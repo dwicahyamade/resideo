@@ -23,7 +23,7 @@
 </head>
 
 <body>
-  <?php require_once 'header.php' ?>
+  <?php require_once 'pages/home-header.php' ?>
 
   <main>
     <section class="banner">
@@ -110,9 +110,9 @@
           Browse our latest hot offers
         </p>
         <div class="row properties__container">
-          <div class="col-lg-4 d-flex align-items-stretch pb-3 pb-lg-3">
-            <a href="property-detail.php" class="card properties__card text-white">
-              <img src="img/prop-4-1-gallery.jpg" class="card-img properties__img" alt="Apartement">
+          <div class="col-md-6 col-lg-4 d-flex pb-3 pb-lg-3">
+            <a href="property-detail.php" class="card properties__image-container text-white">
+              <img src="img/prop-4-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
                 <div class="card-text-container properties__text-container">
                   <h3 class="properties__title">Chic Apartement In Downtown</h3>
@@ -122,9 +122,9 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4 d-flex align-items-stretch pb-3 pb-lg-3">
-            <a href="property-detail.php" class="card properties__card text-white">
-              <img src="img/prop-5-1-gallery.jpg" class="card-img properties__img" alt="Apartement">
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch pb-3 pb-lg-3">
+            <a href="property-detail.php" class="card properties__image-container text-white">
+              <img src="img/prop-5-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
                 <div class="card-text-container properties__text-container">
                   <h3 class="properties__title">Colorful Little Apartement</h3>
@@ -134,9 +134,9 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4 d-flex align-items-stretch pb-3 pb-lg-3">
-            <a href="property-detail.php" class="card properties__card text-white">
-              <img src="img/prop-6-1-gallery.jpg" class="card-img properties__img" alt="Apartement">
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch pb-3 pb-lg-3">
+            <a href="property-detail.php" class="card properties__image-container text-white">
+              <img src="img/prop-6-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
                 <div class="card-text-container properties__text-container">
                   <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
@@ -146,9 +146,9 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
-            <a href="property-detail.php" class="card properties__card text-white">
-              <img src="img/prop-10-1-gallery.jpg" class="card-img properties__img" alt="Apartement">
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
+            <a href="property-detail.php" class="card properties__image-container text-white">
+              <img src="img/prop-10-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
                 <div class="card-text-container properties__text-container">
                   <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
@@ -158,9 +158,9 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
-            <a href="property-detail.php" class="card properties__card text-white">
-              <img src="img/prop-11-1-gallery.jpg" class="card-img properties__img" alt="Apartement">
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
+            <a href="property-detail.php" class="card properties__image-container text-white">
+              <img src="img/prop-11-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
                 <div class="card-text-container properties__text-container">
                   <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
@@ -170,9 +170,9 @@
               </div>
             </a>
           </div>
-          <div class="col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
-            <a href="property-detail.php" class="card properties__card text-white">
-              <img src="img/prop-12-1-gallery.jpg" class="card-img properties__img" alt="Apartement">
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
+            <a href="property-detail.php" class="card properties__image-container text-white">
+              <img src="img/prop-12-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
                 <div class="card-text-container properties__text-container">
                   <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
@@ -261,9 +261,9 @@
           Meet the best real estate agents
         </p>
         <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <div class="agents__wrapper">
-              <img src="img/agent-1.jpg" alt="resideo" class="agents__image">
+          <div class="col-sm-6 col-lg-3">
+            <div class="agents__image-container">
+              <img src="img/agent-1.jpg" alt="resideo" class="agents__image text-center">
             </div>
             <div class="agents__text text-center">
               <h3 class="agents__name">Scoot Goodwin</h3>
@@ -276,8 +276,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="agents__wrapper">
+          <div class="col-sm-6 col-lg-3">
+            <div class="agents__image-container">
               <img src="img/agent-2.jpg" alt="resideo" class="agents__image">
             </div>
             <div class="agents__text text-center">
@@ -291,8 +291,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="agents__wrapper">
+          <div class="col-sm-6 col-lg-3">
+            <div class="agents__image-container">
               <img src="img/agent-3.jpg" alt="resideo" class="agents__image">
             </div>
             <div class="agents__text text-center">
@@ -306,8 +306,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="agents__wrapper">
+          <div class="col-sm-6 col-lg-3">
+            <div class="agents__image-container">
               <img src="img/agent-4.jpg" alt="resideo" class="agents__image">
             </div>
             <div class="agents__text text-center">

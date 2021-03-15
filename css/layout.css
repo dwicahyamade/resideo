@@ -12165,6 +12165,46 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.modal-open .bsnav-sticky {
+  right: 17px;
+}
+@media (max-width: 991px) {
+  .modal-open .bsnav-sticky {
+    right: 0;
+  }
+}
+
+.modal__forgot {
+  display: block;
+  font-size: 14px;
+  padding-top: 25px;
+  color: #181D21;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+.modal__forgot:hover {
+  color: #8d8d8d;
+}
+.modal__create {
+  display: block;
+  font-size: 14px;
+  color: #181D21;
+  padding-top: 15px;
+}
+.modal__create a {
+  color: #181D21;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+.modal__create a:hover {
+  color: #8d8d8d;
+}
+.modal__close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
 .bsnav-sticky.bsnav-sticky-slide.sticked {
   background-color: #000000;
   z-index: 100;
@@ -12185,6 +12225,35 @@ body {
 
 .navbar-toggler:focus-visible {
   outline: none;
+}
+
+.btn-white {
+  background-color: #FFFFFF;
+}
+
+.btn-custom, .btn-custom--dark {
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #181D21;
+  background-color: #FFF;
+  border: 1px solid rgba(174, 176, 178, 0.6);
+}
+.btn-custom:hover, .btn-custom--dark:hover, .btn-custom:not(:disabled):not(.disabled):active, .btn-custom--dark:not(:disabled):not(.disabled):active, .btn-custom:focus, .btn-custom--dark:focus {
+  background-color: #181D21;
+  color: #FFF;
+  border: 1px solid #181D21;
+  box-shadow: none;
+}
+.btn-custom--dark {
+  background-color: #181D21;
+  color: #FFF;
+}
+.btn-custom--dark:hover, .btn-custom--dark:not(:disabled):not(.disabled):active, .btn-custom--dark:focus {
+  background-color: #FFF;
+  color: #181D21;
+  border: 1px solid #181D21;
+  box-shadow: none;
 }
 
 .separator::after, .separator--dark::after, .separator--light::after {

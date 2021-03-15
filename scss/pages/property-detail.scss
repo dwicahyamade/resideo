@@ -14,25 +14,6 @@ body{
   }
 }
 
-.btn-white{
-  background-color: #FFFFFF;
-}
-
-.btn-custom{
-  padding: 10px 20px;
-  font-weight: 500;
-  font-size: 14px;
-  color: #000;
-  background-color: $secondaryColor;
-  border: 1px solid rgba($tertiaryColor, 0.6);
-
-  &:hover, &:not(:disabled):not(.disabled):active, &:focus{
-    background-color: $primaryColor;
-    border: 1px solid $primaryColor;
-    box-shadow: none;
-  }
-}
-
 .nav-tabs .nav-link{
   &:hover{
     border: 1px solid transparent;
@@ -118,7 +99,8 @@ body{
 
   &__overview{
     padding-top: 10px;
-    font-size: 16px;
+    // font-size: 16px;
+    @include elypsis(16, 6, 24px);
   }
 
   &__continue{
@@ -200,4 +182,29 @@ body{
     text-transform: uppercase;
   }
   
+}
+
+.side-content{
+  &__card{
+    background-color: transparent;
+    border: none;
+  }
+  &__body{
+    padding-top: 0;
+  }
+
+  &__title{
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  &__star{
+    font-size: 12px;
+  }
+
+  &__text{
+    font-size: 12px;
+    margin: 0;
+    color: $tertiaryColor;
+  }
 }

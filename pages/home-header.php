@@ -1,7 +1,7 @@
 <header>
-  <div class="navbar navbar-expand-lg bsnav bsnav-dark bsnav-sticky bsnav-sticky-slide pt-0">
+  <div class="navbar navbar-expand-lg bsnav bsnav-transparent bsnav-sticky bsnav-sticky-slide">
     <div class="container">
-      <a class="navbar-brand" href="index.php">resideo.</a>
+      <a class="navbar-brand" href="/resideo/index.php">resideo.</a>
       <button class="navbar-toggler toggler-spring order-1"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav navbar-mobile mr-0">
@@ -10,7 +10,7 @@
           <li class="nav-item"><a class="nav-link" href="#">Agents</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Themes</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="/resideo/contact-us.php">Contact Us</a></li>
         </ul>
       </div>
       <span class="navbar-text ml-auto">

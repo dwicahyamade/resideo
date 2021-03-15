@@ -1,0 +1,143 @@
+@import '../config.scss';
+@import '../plugin/_bootstrap-select.scss';
+
+body{
+  background-color: #F7F7F7;
+}
+
+.header{
+  padding-top: 190px;
+  padding-bottom: 60px;
+
+  @media (max-width: 575px) { 
+    padding-top: 100px;
+  }
+}
+
+.header-left{
+  &__title{
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  &__subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    color: $tertiaryColor;
+  }
+}
+
+.gallery{
+  &__wrapper{
+    position: relative;
+  }
+
+  &__bg{
+    max-height: 750px; 
+  }
+
+  &__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 75%;
+  }
+
+  &__text{
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background: #000;
+    color: #FFFFFF;
+    padding: 50px;
+  }
+
+  &__title{
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  &__subtitle{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__desc{
+    font-size: 14px;
+
+    &--small{
+      @extend .gallery__desc;
+      display: block;
+      padding-top: 14px;
+      color: $tertiaryColor;
+    }
+  }
+}
+
+.address{
+  &__bg{
+    position: relative;
+    z-index: 2;
+    padding: 50px;
+    margin-top: -200px;
+    background-color: #000;
+    color: #FFFFFF;
+  }
+  &__title{
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  &__subtitle{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__desc{
+    font-size: 14px;
+
+    &--small{
+      @extend .gallery__desc;
+      display: block;
+      padding-top: 14px;
+      color: $tertiaryColor;
+    }
+  }
+
+  @media (max-width: 575px){
+    position: unset;
+    &__bg{
+      margin: unset;
+      padding: 50px 20px;
+    }
+  }
+}
+
+.form{
+  padding: 100px 0;
+  &__title{
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+  }
+
+  &__input{
+    font-size: 14px;
+  }
+
+  &__textarea{
+    padding: 12px;
+    resize: none;
+  }
+
+  &__map{
+    width: 100%;
+    height: 285px;
+  }
+
+  @media (max-width: 575px){
+    padding: 50px 0;
+  }
+}

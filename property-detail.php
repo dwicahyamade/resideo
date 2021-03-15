@@ -23,7 +23,7 @@
 </head>
 
 <body>
-  <?php require_once 'pages/property-detail-header.php' ?>
+  <?php require_once 'header.php' ?>
 
   <main>
     <section class="header">
@@ -48,26 +48,26 @@
             <p class="header-right__desc pr-2">
               3,945 <span class="header-right__small">SF</span>
             </p>
-            <div class="btn btn-primary btn-custom"><i class="fas fa-star pr-2"></i>SAVE</div>
-            <div class="btn btn-primary btn-custom"><i class="fas fa-share-alt pr-2"></i>SHARE</div>
+            <button type="button" class="btn btn-custom"><i class="fas fa-star pr-2"></i>SAVE</button>
+            <button type="button" class="btn btn-custom"><i class="fas fa-share-alt pr-2"></i>SHARE</button>
           </div>
         </div>
       </div>
     </section>
     <section class="gallery">
       <div class="row no-gutters">
-        <div class="col-lg-6 pr-1">
+        <div class="col-lg-6 pr-0 pr-lg-1">
           <img src="img/prop-11-1-big.jpg" alt="resideo" class="gallery__img">
         </div>
         <div class="col-lg-6">
           <div class="row no-gutters">
-            <div class="col-lg-6 pr-1">
+            <div class="col-lg-6 pr-0 pr-lg-1">
               <img src="img/prop-11-3-big.jpg" alt="resideo" class="gallery__img">
             </div>
             <div class="col-lg-6">
               <img src="img/prop-10-1-gallery.jpg" alt="" class="gallery__img">
             </div>
-            <div class="col-lg-6 pr-1">
+            <div class="col-lg-6 pr-0 pr-lg-1">
               <img src="img/prop-10-2-big.jpg" alt="" class="gallery__img">
             </div>
             <div class="col-lg-6">
@@ -116,8 +116,8 @@
               </div>
             </div>
             <h2 class="main-content__title">Overview</h2>
-            <p class="main-content__overview">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam incidunt magnam deserunt, ex enim, eaque voluptas fugiat perferendis adipisci pariatur unde atque ipsam rerum obcaecati doloribus deleniti neque consectetur placeat voluptatum nesciunt. Mollitia placeat illo rem numquam sunt, explicabo sit id, eveniet vero commodi voluptatibus eaque? Libero, magni rerum pariatur voluptate architecto ducimus. Non earum minus sunt maxime vel in possimus eos maiores, esse autem numquam quam voluptas amet porro optio nemo illo dolores enim libero doloribus. Similique consequuntur beatae quae quidem itaque optio, delectus ipsam placeat facilis mollitia! Veniam non consequatur distinctio cum eum sed, corporis illo amet dolorum.</p>
-            <p class="main-content__continue">Continue Reading</p>
+            <p class="main-content__overview effect--shimmer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam incidunt magnam deserunt, ex enim, eaque voluptas fugiat perferendis adipisci pariatur unde atque ipsam rerum obcaecati doloribus deleniti neque consectetur placeat voluptatum nesciunt. Mollitia placeat illo rem numquam sunt, explicabo sit id, eveniet vero commodi voluptatibus eaque? Libero, magni rerum pariatur voluptate architecto ducimus. Non earum minus sunt maxime vel in possimus eos maiores, esse autem numquam quam voluptas amet porro optio nemo illo dolores enim libero doloribus. Similique consequuntur beatae quae quidem itaque optio, delectus ipsam placeat facilis mollitia! Veniam non consequatur distinctio cum eum sed, corporis illo amet dolorum.</p>
+            <span class="main-content__continue">Continue Reading <i class="fas fa-angle-down"></i></span>
             <h2 class="main-content__title pt-5">Amenities</h2>
             <div class="row">
               <div class="col-6 col-lg-4">
@@ -276,8 +276,25 @@
             </div>
 
           </div>
-          <div class="col-lg-4 main-content__side">
+          <div class="col-lg-4 side-content pt-5 pt-lg-0">
             <p class="main-content__title">Listed By</p>
+            <div class="card side-content__card">
+              <div class="row no-gutters">
+                <div class="col-3">
+                  <img src="img/agent-4.jpg" alt="Agents" class="w-100">
+                </div>
+                <div class="col-9">
+                  <div class="card-body side-content__body">
+                    <h5 class="card-title side-content__title">Erika Tillman</h5>
+                    <h5 class="card-title side-content__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                    <p class="card-text side-content__text">erika.tillman@resideo.com</p>
+                    <p class="card-text side-content__text"><i class="fas fa-phone"></i> (123) 456-7890</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="contact-us.php" class="btn btn-custom--dark"><i class="far fa-envelope pr-1"></i> CONTACT AGENT</a>
+            <a href="contact-us.php" class="btn btn-primary btn-custom"><i class="far fa-calendar-check pr-1"></i> REQUEST TOUR</a>
           </div>
         </div>
       </div>
@@ -288,8 +305,10 @@
 
   <!-- Select Picker -->
   <script src="js/bootstrap-select.js"></script>
-
+  <!-- Chartjs -->
   <script src="js/Chart.js"></script>
+  <!-- Timedoor preset -->
+  <script src="js/tmdrPreset.js"></script>
   <!-- CUSTOM JS -->
   <script src="js/pages/property-detail.js"></script>
 </body>

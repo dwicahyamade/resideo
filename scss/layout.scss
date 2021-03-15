@@ -11,6 +11,48 @@ body{
   // background-color: $primaryColor;
 }
 
+.modal-open .bsnav-sticky{
+  right: 17px;
+  @media (max-width: 991px){
+    right: 0;
+  }
+}
+
+.modal{
+  &__forgot{
+    display: block;
+    font-size: 14px;
+    padding-top: 25px;
+    color: $primaryColor;
+    text-decoration: underline;
+    transition: .3s;
+    &:hover{
+      color: #8d8d8d;
+    }
+  }
+
+  &__create{
+    display: block;
+    font-size: 14px;
+    color: $primaryColor;
+    padding-top: 15px;
+    & a{
+      color: $primaryColor;
+      text-decoration: underline;
+      transition: .3s;
+      &:hover{
+        color: #8d8d8d;
+      }
+    }
+  }
+
+  &__close{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+}
+
 .bsnav-sticky.bsnav-sticky-slide.sticked{
   background-color: #000000;
   z-index: 100;
@@ -32,6 +74,38 @@ body{
 .navbar-toggler{
   &:focus-visible{
     outline: none;
+  }
+}
+
+.btn-white{
+  background-color: #FFFFFF;
+}
+
+.btn-custom{
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: $primaryColor;
+  background-color: $secondaryColor;
+  border: 1px solid rgba($tertiaryColor, 0.6);
+
+  &:hover, &:not(:disabled):not(.disabled):active, &:focus{
+    background-color: $primaryColor;
+    color: $secondaryColor;
+    border: 1px solid $primaryColor;
+    box-shadow: none;
+  }
+
+  &--dark{
+    @extend .btn-custom;
+    background-color: $primaryColor;
+    color: $secondaryColor;
+    &:hover, &:not(:disabled):not(.disabled):active, &:focus{
+      background-color: $secondaryColor;
+    color: $primaryColor;
+    border: 1px solid $primaryColor;
+    box-shadow: none;
+    }
   }
 }
 
