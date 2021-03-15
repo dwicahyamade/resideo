@@ -149,7 +149,37 @@
               </div>
             </div>
             <h2 class="main-content__title pt-5">Explore the Area</h2>
-            <ul class="main-content__ul">
+            <nav class="pt-3">
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="main-content__explore-tab nav-link active" id="nav-transportation-tab" data-toggle="tab" href="#nav-transportation" role="tab" aria-controls="nav-transportation" aria-selected="true">Transportation</a>
+                <a class="nav-link main-content__explore-tab" id="nav-restaurants-tab" data-toggle="tab" href="#nav-restaurants" role="tab" aria-controls="nav-restaurants" aria-selected="false">Restaurants</a>
+                <a class="nav-link main-content__explore-tab" id="nav-shooping-tab" data-toggle="tab" href="#nav-shooping" role="tab" aria-controls="nav-shooping" aria-selected="false">Shooping</a>
+                <a class="nav-link main-content__explore-tab" id="nav-cafe-tab" data-toggle="tab" href="#nav-cafe" role="tab" aria-controls="nav-cafe" aria-selected="false">Cafes & Bars</a>
+                <a class="nav-link main-content__explore-tab" id="nav-arts-tab" data-toggle="tab" href="#nav-arts" role="tab" aria-controls="nav-arts" aria-selected="false">Arts & Entertainment</a>
+                <a class="nav-link main-content__explore-tab" id="nav-fitness-tab" data-toggle="tab" href="#nav-fitness" role="tab" aria-controls="nav-fitness" aria-selected="false">Fitness</a>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-transportation" role="tabpanel" aria-labelledby="nav-transportation-tab">
+                <iframe class="main-content__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.104066007386!2d115.23826581531131!3d-8.68165319376232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1615433371463!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+              <div class="tab-pane fade" id="nav-restaurants" role="tabpanel" aria-labelledby="nav-restaurants-tab">
+                <iframe class="main-content__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.104066007386!2d115.23826581531131!3d-8.68165319376232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1615433371463!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+              <div class="tab-pane fade" id="nav-shooping" role="tabpanel" aria-labelledby="nav-shooping-tab">
+                <iframe class="main-content__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.104066007386!2d115.23826581531131!3d-8.68165319376232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1615433371463!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+              <div class="tab-pane fade" id="nav-cafe" role="tabpanel" aria-labelledby="nav-cafe-tab">
+                <iframe class="main-content__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.104066007386!2d115.23826581531131!3d-8.68165319376232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1615433371463!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+              <div class="tab-pane fade" id="nav-arts" role="tabpanel" aria-labelledby="nav-arts-tab">
+                <iframe class="main-content__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.104066007386!2d115.23826581531131!3d-8.68165319376232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1615433371463!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+              <div class="tab-pane fade" id="nav-fitness" role="tabpanel" aria-labelledby="nav-fitness-tab">
+                <iframe class="main-content__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.104066007386!2d115.23826581531131!3d-8.68165319376232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1615433371463!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+            <!-- <ul class="main-content__ul">
               <li class="main-content__li">Transportation</li>
               <li class="main-content__li">Restaurants</li>
               <li class="main-content__li">Shopping</li>
@@ -157,7 +187,7 @@
               <li class="main-content__li">Arts & Entertainment</li>
               <li class="main-content__li">Fitnes</li>
             </ul>
-            <iframe class="main-content__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.104066007386!2d115.23826581531131!3d-8.68165319376232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1615433371463!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="main-content__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.104066007386!2d115.23826581531131!3d-8.68165319376232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1615433371463!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
             <h2 class="main-content__title pt-5 pb-3">Payment Calculator</h2>
             <div class="row justify-content-between">
               <div class="col-lg-5 d-flex justify-content-center">
@@ -213,13 +243,13 @@
             <h2 class="main-content__title pt-5">School in Marina District</h2>
             <nav class="pt-3">
               <div class="nav nav-tabs main-content__tabs" id="nav-tab" role="tablist">
-                <a class="main-content__school-type nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Elementary</a>
-                <a class="nav-link main-content__school-type" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Middle</a>
-                <a class="nav-link main-content__school-type" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">High</a>
+                <a class="main-content__school-type nav-link active" id="nav-elementary-tab" data-toggle="tab" href="#nav-elementary" role="tab" aria-controls="nav-elementary" aria-selected="true">Elementary</a>
+                <a class="nav-link main-content__school-type" id="nav-middle-tab" data-toggle="tab" href="#nav-middle" role="tab" aria-controls="nav-middle" aria-selected="false">Middle</a>
+                <a class="nav-link main-content__school-type" id="nav-high-tab" data-toggle="tab" href="#nav-high" role="tab" aria-controls="nav-high" aria-selected="false">High</a>
               </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
-              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="tab-pane fade show active" id="nav-elementary" role="tabpanel" aria-labelledby="nav-elementary-tab">
                 <div class="row">
                   <div class="col-5 font-weight-bold pt-4">School</div>
                   <div class="col-2 font-weight-bold pt-4">Type</div>
@@ -237,7 +267,7 @@
                   <div class="col-3">5/5 <i class="fas fa-star pl-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                 </div>
               </div>
-              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <div class="tab-pane fade" id="nav-middle" role="tabpanel" aria-labelledby="nav-middle-tab">
                 <div class="row">
                   <div class="col-5 font-weight-bold pt-4">School</div>
                   <div class="col-2 font-weight-bold pt-4">Type</div>
@@ -255,7 +285,7 @@
                   <div class="col-3">5/5 <i class="fas fa-star pl-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                 </div>
               </div>
-              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+              <div class="tab-pane fade" id="nav-high" role="tabpanel" aria-labelledby="nav-high-tab">
                 <div class="row">
                   <div class="col-5 font-weight-bold pt-4">School</div>
                   <div class="col-2 font-weight-bold pt-4">Type</div>
