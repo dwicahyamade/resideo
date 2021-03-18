@@ -104,10 +104,6 @@
   }
 
   @media (max-width: 575px) { 
-    &__text{
-      padding-top: 100px;
-    }
-
     &__detail{
       margin-top: 50px;
     }
@@ -123,11 +119,23 @@
     }
 
    }
+
+   @media (max-width: 991px) {
+    &__img{
+      img{
+        opacity: 0.5;
+      }
+    }
+
+    .slider-container{
+      bottom: 0;
+    }
+  }
 }
 
 .properties{
   padding-top: 100px;
-  @include imageRatio(350, 320, true);
+  @include imageRatio(350, 320);
 
   &__browse{
     font-weight: 700;
@@ -147,7 +155,6 @@
   &__image-container{
     background-color: $primaryColor;
     border: none;
-    max-width: none;
     &:hover .properties__image{
       opacity: 0.3;
     }
@@ -264,6 +271,7 @@
     color: rgba($color: $tertiaryColor, $alpha: 0.6);
     background-color: transparent;
     padding: 38px;
+    transition: .3s;
 
     &:hover{
       color: rgba($color: $tertiaryColor, $alpha: 1);
@@ -279,7 +287,6 @@
   }
 
   @media (max-width: 575px) { 
-
     &__detail{
       margin-top: 50px;
     }
@@ -291,6 +298,7 @@
    }
 
   @media (max-width: 991px) {
+  padding-bottom: 350px;
     &__bg{
       width: 100%;
     }
@@ -313,22 +321,19 @@
 
 .agents{
   padding-top: 100px;
-  @include imageRatio(255, 300, true);
+  @include imageRatio(255, 300);
 
   &__image-container{
     margin-bottom: 50px;
     overflow: hidden;
-    max-width: none;
     &:hover .agents__image{
       transform: scale(1.1);
-    }
-
+    } 
     &:hover + .agents__text{
       padding-bottom: 50px;
-    }
-
-    &:hover + .agents__text .agents__social{
-      opacity: 1;
+        .agents__social{
+          opacity: 1;
+        }
     }
   }
 
@@ -418,7 +423,7 @@
   align-items: center;
   justify-content: center;
 
-  &::after{
+  &::before{
     content: '';
     display: block;
     background-color: black;

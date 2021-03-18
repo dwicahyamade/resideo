@@ -12191,12 +12191,12 @@ body {
   color: #181D21;
   padding-top: 15px;
 }
-.modal__create a {
+.modal__create-link {
   color: #181D21;
   text-decoration: underline;
   transition: 0.3s;
 }
-.modal__create a:hover {
+.modal__create-link:hover {
   color: #8d8d8d;
 }
 .modal__close {
@@ -12291,6 +12291,7 @@ body {
 }
 .navbar .nav-item {
   color: #FFF;
+  padding: 10px 0;
 }
 .navbar .nav-item .nav-link:hover, .navbar .nav-item .nav-link:active, .navbar .nav-item .nav-link:focus {
   color: #8d8d8d;
@@ -12362,7 +12363,6 @@ body {
   color: #8d8d8d;
 }
 .footer__copyright {
-  margin-top: -10px;
   color: #AEB0B2;
   font-size: 12px;
 }

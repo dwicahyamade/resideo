@@ -18,14 +18,10 @@ main{
 }
 
 .search{
-  &__form{
-    position: relative;
-  }
   &__icon{
-    position: absolute;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-left: 0;
   }
 }
 
@@ -44,6 +40,8 @@ main{
   margin-bottom: 30px;
   height: 51vh;
   overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: $tertiaryColor #FFF;
 
   &__browse{
     font-weight: 700;
@@ -120,6 +118,7 @@ main{
     & a{
       color: $primaryColor;
       text-decoration: none;
+      transition: .3s;
 
       &:hover, &:active, &:focus, &:focus-visible{
         color: #8d8d8d;

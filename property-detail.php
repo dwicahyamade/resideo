@@ -56,21 +56,21 @@
     </section>
     <section class="gallery">
       <div class="row no-gutters">
-        <div class="col-lg-6 pr-0 pr-lg-1">
+        <div class="col-lg-6 pb-1 pr-0 pr-lg-1">
           <img src="img/prop-11-1-big.jpg" alt="resideo" class="gallery__img">
         </div>
         <div class="col-lg-6">
           <div class="row no-gutters">
-            <div class="col-lg-6 pr-0 pr-lg-1">
+            <div class="col-lg-6 pb-1 pr-0 pr-lg-1">
               <img src="img/prop-11-3-big.jpg" alt="resideo" class="gallery__img">
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 pb-1">
               <img src="img/prop-10-1-gallery.jpg" alt="" class="gallery__img">
             </div>
-            <div class="col-lg-6 pr-0 pr-lg-1">
+            <div class="col-lg-6 pb-1 pr-0 pr-lg-1">
               <img src="img/prop-10-2-big.jpg" alt="" class="gallery__img">
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 pb-1">
               <img src="img/prop-10-3-big.jpg" alt="" class="gallery__img">
             </div>
           </div>
@@ -117,35 +117,35 @@
             </div>
             <h2 class="main-content__title">Overview</h2>
             <p class="main-content__overview effect--shimmer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam incidunt magnam deserunt, ex enim, eaque voluptas fugiat perferendis adipisci pariatur unde atque ipsam rerum obcaecati doloribus deleniti neque consectetur placeat voluptatum nesciunt. Mollitia placeat illo rem numquam sunt, explicabo sit id, eveniet vero commodi voluptatibus eaque? Libero, magni rerum pariatur voluptate architecto ducimus. Non earum minus sunt maxime vel in possimus eos maiores, esse autem numquam quam voluptas amet porro optio nemo illo dolores enim libero doloribus. Similique consequuntur beatae quae quidem itaque optio, delectus ipsam placeat facilis mollitia! Veniam non consequatur distinctio cum eum sed, corporis illo amet dolorum.</p>
-            <span class="main-content__continue">Continue Reading <i class="fas fa-angle-down"></i></span>
+            <button class="main-content__continue">Continue Reading <i class="fas fa-angle-down"></i></button>
             <h2 class="main-content__title pt-5">Amenities</h2>
             <div class="row">
               <div class="col-6 col-lg-4">
-                <p class="main-content__amenities"><i class="fas fa-wifi pr-1 pt-3"></i>Internet</p>
+                <p class="main-content__amenities"><i class="fas fa-wifi pr-1"></i>Internet</p>
               </div>
               <div class="col-6 col-lg-4">
-                <p class="main-content__amenities"><i class="fas fa-car-alt pr-1 pt-3"></i>Garage</p>
+                <p class="main-content__amenities"><i class="fas fa-car-alt pr-1"></i>Garage</p>
               </div>
               <div class="col-6 col-lg-4">
-                <p class="main-content__amenities"><i class="fas fa-sun pr-1 pt-3"></i>Air Conditioning</p>
+                <p class="main-content__amenities"><i class="fas fa-sun pr-1"></i>Air Conditioning</p>
               </div>
               <div class="col-6 col-lg-4">
-                <p class="main-content__amenities"><i class="far fa-dot-circle pr-1 pt-3"></i></i>Dishwasher</p>
+                <p class="main-content__amenities"><i class="far fa-dot-circle pr-1"></i></i>Dishwasher</p>
               </div>
               <div class="col-6 col-lg-4">
-                <p class="main-content__amenities"><i class="fas fa-recycle pr-1 pt-3"></i>Disposal</p>
+                <p class="main-content__amenities"><i class="fas fa-recycle pr-1"></i>Disposal</p>
               </div>
               <div class="col-6 col-lg-4">
-                <p class="main-content__amenities"><i class="far fa-square pr-1 pt-3"></i>Balcony</p>
+                <p class="main-content__amenities"><i class="far fa-square pr-1"></i>Balcony</p>
               </div>
               <div class="col-6 col-lg-4">
-                <p class="main-content__amenities"><i class="fas fa-cog pr-1 pt-3"></i>Gym</p>
+                <p class="main-content__amenities"><i class="fas fa-cog pr-1"></i>Gym</p>
               </div>
               <div class="col-6 col-lg-4">
-                <p class="main-content__amenities"><i class="far fa-smile pr-1 pt-3"></i>Playroom</p>
+                <p class="main-content__amenities"><i class="far fa-smile pr-1"></i>Playroom</p>
               </div>
               <div class="col-6 col-lg-4">
-                <p class="main-content__amenities"><i class="fas fa-glass-martini pr-1 pt-3"></i>Air Bar</p>
+                <p class="main-content__amenities"><i class="fas fa-glass-martini pr-1"></i>Air Bar</p>
               </div>
             </div>
             <h2 class="main-content__title pt-5">Explore the Area</h2>

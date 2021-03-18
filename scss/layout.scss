@@ -36,14 +36,15 @@ body{
     font-size: 14px;
     color: $primaryColor;
     padding-top: 15px;
-    & a{
+  }
+
+  &__create-link{
       color: $primaryColor;
       text-decoration: underline;
       transition: .3s;
       &:hover{
         color: #8d8d8d;
       }
-    }
   }
 
   &__close{
@@ -151,6 +152,7 @@ body{
   }
   .nav-item{
     color: $secondaryColor;
+    padding: 10px 0;
     .nav-link:hover, .nav-link:active, .nav-link:focus{
       color: #8d8d8d;
       outline: none;
@@ -235,7 +237,6 @@ body{
   }
 
   &__copyright{
-    margin-top: -10px;
     color: $tertiaryColor;
     font-size: 12px;
   }

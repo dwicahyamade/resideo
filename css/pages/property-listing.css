@@ -547,14 +547,10 @@ main {
   padding-top: 30px;
 }
 
-.search__form {
-  position: relative;
-}
 .search__icon {
-  position: absolute;
-  right: 12px;
-  top: 50%;
-  transform: translateY(-50%);
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-left: 0;
 }
 
 .results {
@@ -570,6 +566,8 @@ main {
   margin-bottom: 30px;
   height: 51vh;
   overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #AEB0B2 #FFF;
 }
 .properties__browse {
   font-weight: 700;
@@ -634,6 +632,7 @@ main {
 .pagination__items a {
   color: #181D21;
   text-decoration: none;
+  transition: 0.3s;
 }
 .pagination__items a:hover, .pagination__items a:active, .pagination__items a:focus, .pagination__items a:focus-visible {
   color: #8d8d8d;

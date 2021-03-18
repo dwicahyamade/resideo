@@ -628,11 +628,19 @@ body {
 .main-content__continue {
   font-weight: 700;
   font-size: 12px;
+  padding: 0;
   text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  transition: 0.3s;
+}
+.main-content__continue:hover, .main-content__continue:focus, .main-content__continue:focus-visible {
+  color: #8d8d8d;
+  outline: 0;
 }
 .main-content__amenities {
   font-weight: 400;
-  padding-top: 15px;
+  padding-top: 30px;
 }
 .main-content__ul {
   list-style: none;

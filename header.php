@@ -31,14 +31,18 @@
       </div>
       <div class="modal-body">
         <form action="#" method="POST">
-          <p class="small mb-1 font-weight-bold">Email</p>
-          <input type="email" class="form-control" placeholder="Enter your email address">
-          <p class="small mb-1 pt-3 font-weight-bold">Password</p>
-          <input type="password" class="form-control" placeholder="Enter your password">
+          <div class="form-group">
+            <label for="email" class="small mb-1 font-weight-bold">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+          </div>
+          <div class="form-group">
+            <label for="password" class="small mb-1 pt-3 font-weight-bold">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+          </div>
           <button type="submit" class="btn btn-custom--dark w-100 mt-4">SIGN IN</button>
         </form>
         <a href="#" class="modal__forgot text-center">Forgot password</a>
-        <span class="modal__create text-center">New to Resideo? <a href="#">Create an account</a></span>
+        <span class="modal__create text-center">New to Resideo? <a href="#" class="modal__create-link">Create an account</a></span>
       </div>
     </div>
   </div>

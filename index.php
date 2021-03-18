@@ -23,7 +23,7 @@
 </head>
 
 <body>
-  <?php require_once 'pages/home-header.php' ?>
+  <?php require_once 'component/home-header.php' ?>
 
   <main>
     <section class="banner">
@@ -110,7 +110,7 @@
           Browse our latest hot offers
         </p>
         <div class="row properties__container">
-          <div class="col-md-6 col-lg-4 d-flex pb-3 pb-lg-3">
+          <div class="col-md-6 col-lg-4 pb-3">
             <a href="property-detail.php" class="card properties__image-container text-white">
               <img src="img/prop-4-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
@@ -122,7 +122,7 @@
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch pb-3 pb-lg-3">
+          <div class="col-md-6 col-lg-4 pb-3">
             <a href="property-detail.php" class="card properties__image-container text-white">
               <img src="img/prop-5-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
@@ -134,7 +134,7 @@
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch pb-3 pb-lg-3">
+          <div class="col-md-6 col-lg-4 pb-3">
             <a href="property-detail.php" class="card properties__image-container text-white">
               <img src="img/prop-6-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
@@ -146,7 +146,7 @@
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
+          <div class="col-md-6 col-lg-4 pb-3">
             <a href="property-detail.php" class="card properties__image-container text-white">
               <img src="img/prop-10-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
@@ -158,7 +158,7 @@
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
+          <div class="col-md-6 col-lg-4 pb-3">
             <a href="property-detail.php" class="card properties__image-container text-white">
               <img src="img/prop-11-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
@@ -170,7 +170,7 @@
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch pb-3 pb-lg-0">
+          <div class="col-md-6 col-lg-4 pb-3">
             <a href="property-detail.php" class="card properties__image-container text-white">
               <img src="img/prop-12-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">

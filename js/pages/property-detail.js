@@ -20,3 +20,11 @@ $(document).ready(function () {
     }
   });
 });
+
+$('.main-content__continue').on('click', function () {
+  if ($('.main-content__overview').css("display") == '-webkit-box') {
+    $('.main-content__overview').css({ 'display': 'block' })
+  } else {
+    $('.main-content__overview').css({ 'display': '-webkit-box' })
+  }
+});

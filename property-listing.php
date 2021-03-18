@@ -28,7 +28,7 @@
   <main>
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-md-6">
           <div class="left-content">
             <div class="row search">
               <div class="col-3">
@@ -39,10 +39,14 @@
                 </select>
               </div>
               <div class="col-7 px-0">
-                <div class="form-group search__form">
-                  <input type="text" class="form-control" placeholder="Search by City, Neighbothood, or Adress">
-                  <span class="fa fa-search search__icon"></span>
-                </div>
+                <form action="#" method="POST">
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Search by City, Neighbothood, or Adress">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary search__icon" type="button" id="button-addon2"><i class="fa fa-search"></i></button>
+                    </div>
+                  </div>
+                </form>
               </div>
               <div class="col-2">
                 <div class="dropdown text-right">
@@ -59,7 +63,7 @@
             </div>
             <div class="row results">
               <div class="col-7">
-                <span class="results__result">1,684 Results</span>
+                <h1 class="results__result">1,684 Results</h1>
               </div>
               <div class="col-3 px-0">
                 <select class="selectpicker" id="sort" required data-style="btn-white">
@@ -149,23 +153,24 @@
                 </a>
               </div>
             </div>
-            <span class="pagination">
+            <div class="pagination">
               <ul class="pagination__link">
                 <li class="pagination__items"><a href="#">1</a></li>
                 <li class="pagination__items"><a href="#">2</a></li>
                 <li class="pagination__items"><a href="#">3</a></li>
                 <li class="pagination__items"><a href="#">NEXT ></a></li>
               </ul>
+            </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 right-content">
+        <div class="col-12 col-md-6 right-content">
           <iframe class="right-content__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.104066007386!2d115.23826581531131!3d-8.68165319376232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1615433371463!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
       </div>
     </div>
   </main>
 
-  <?php require_once 'pages/property-footer.php' ?>
+  <?php require_once 'component/property-footer.php' ?>
 
   <!-- Select Picker -->
   <script src="js/bootstrap-select.js"></script>
