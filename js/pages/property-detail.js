@@ -28,3 +28,7 @@ $('.main-content__continue').on('click', function () {
     $('.main-content__overview').css({ 'display': '-webkit-box' })
   }
 });
+
+jQuery(document).ready(function ($) {
+  $('a[data-rel^=lightcase]').lightcase();
+});

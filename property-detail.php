@@ -35,43 +35,62 @@
               542 29th Avenue, Marina District, San Fransisco, CA 94121
             </p>
           </div>
-          <div class="col-lg-6 header-right text-right">
-            <p class="header-right__prices pr-3">
-              $5,198,000
-            </p>
-            <p class="header-right__desc pr-2">
-              5 <span class="header-right__small">BD</span>
-            </p>
-            <p class="header-right__desc pr-2">
-              4 <span class="header-right__small">BA</span>
-            </p>
-            <p class="header-right__desc pr-2">
-              3,945 <span class="header-right__small">SF</span>
-            </p>
-            <button type="button" class="btn btn-custom"><i class="fas fa-star pr-2"></i>SAVE</button>
-            <button type="button" class="btn btn-custom"><i class="fas fa-share-alt pr-2"></i>SHARE</button>
+          <div class="col-lg-6 header-right text-lg-right">
+            <div class="row no-gutters">
+              <div class="col-lg-6 col-xl-3">
+                <p class="header-right__prices pr-3">
+                  $5,198,000
+                </p>
+              </div>
+              <div class="col-lg-6 col-xl-4">
+                <p class="header-right__desc">
+                  5 <span class="header-right__small">BD</span>
+                </p>
+                <p class="header-right__desc">
+                  4 <span class="header-right__small">BA</span>
+                </p>
+                <p class="header-right__desc">
+                  3,945 <span class="header-right__small">SF</span>
+                </p>
+              </div>
+              <div class="col-lg-12 col-xl-5">
+                <button type="button" class="btn btn-custom d-inline-block mr-2"><i class="fas fa-star pr-2"></i>SAVE</button>
+                <button type="button" class="btn btn-custom d-inline-block"><i class="fas fa-share-alt pr-2"></i>SHARE</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="gallery">
       <div class="row no-gutters">
-        <div class="col-lg-6 pb-1 pr-0 pr-lg-1">
-          <img src="img/prop-11-1-big.jpg" alt="resideo" class="gallery__img">
+        <div class="col-lg-6 col-sm-12 pb-1 pr-0 pr-lg-1">
+          <a href="img/prop-11-1-big.jpg" data-rel="lightcase:myCollection:slideshow" class="d-inline-block h-100">
+            <img src="img/prop-11-1-big.jpg" alt="resideo" class="gallery__img">
+          </a>
         </div>
         <div class="col-lg-6">
           <div class="row no-gutters">
-            <div class="col-lg-6 pb-1 pr-0 pr-lg-1">
-              <img src="img/prop-11-3-big.jpg" alt="resideo" class="gallery__img">
+            <div class="col-lg-6 col-sm-3 pb-1 pr-0 pr-sm-1">
+              <a href="img/prop-11-3-big.jpg" data-rel="lightcase:myCollection:slideshow" class="d-inline-block h-100">
+                <img src="img/prop-11-3-big.jpg" alt="resideo" class="gallery__img"></a>
             </div>
-            <div class="col-lg-6 pb-1">
-              <img src="img/prop-10-1-gallery.jpg" alt="" class="gallery__img">
+            <div class="col-lg-6 col-sm-3 pb-1 pr-sm-1">
+              <a href="img/prop-10-1-gallery.jpg" data-rel="lightcase:myCollection:slideshow" class="d-inline-block h-100 w-100">
+                <img src="img/prop-10-1-gallery.jpg" alt="" class="gallery__img">
+              </a>
             </div>
-            <div class="col-lg-6 pb-1 pr-0 pr-lg-1">
-              <img src="img/prop-10-2-big.jpg" alt="" class="gallery__img">
+            <div class="col-lg-6 col-sm-3 pb-1 pr-0 pr-sm-1">
+              <a href="img/prop-10-2-big.jpg" data-rel="lightcase:myCollection:slideshow" class="d-inline-block h-100">
+                <img src="img/prop-10-2-big.jpg" alt="" class="gallery__img">
+              </a>
             </div>
-            <div class="col-lg-6 pb-1">
-              <img src="img/prop-10-3-big.jpg" alt="" class="gallery__img">
+            <div class="col-lg-6 col-sm-3 pb-1">
+              <a href="img/prop-10-3-big.jpg" data-rel="lightcase:myCollection:slideshow" class="d-inline-block h-100">
+                <img src="img/prop-10-3-big.jpg" alt="" class="gallery__img">
+              </a>
+              <a href="img/prop-12-1-gallery.jpg" data-rel="lightcase:myCollection:slideshow" class="gallery__view-photos">View Photos</a>
+              <a href="img/prop-6-1-gallery.jpg" data-rel="lightcase:myCollection:slideshow"></a>
             </div>
           </div>
         </div>
@@ -120,31 +139,31 @@
             <button class="main-content__continue">Continue Reading <i class="fas fa-angle-down"></i></button>
             <h2 class="main-content__title pt-5">Amenities</h2>
             <div class="row">
-              <div class="col-6 col-lg-4">
+              <div class="col-6 col-md-4">
                 <p class="main-content__amenities"><i class="fas fa-wifi pr-1"></i>Internet</p>
               </div>
-              <div class="col-6 col-lg-4">
+              <div class="col-6 col-md-4">
                 <p class="main-content__amenities"><i class="fas fa-car-alt pr-1"></i>Garage</p>
               </div>
-              <div class="col-6 col-lg-4">
+              <div class="col-6 col-md-4">
                 <p class="main-content__amenities"><i class="fas fa-sun pr-1"></i>Air Conditioning</p>
               </div>
-              <div class="col-6 col-lg-4">
+              <div class="col-6 col-md-4">
                 <p class="main-content__amenities"><i class="far fa-dot-circle pr-1"></i></i>Dishwasher</p>
               </div>
-              <div class="col-6 col-lg-4">
+              <div class="col-6 col-md-4">
                 <p class="main-content__amenities"><i class="fas fa-recycle pr-1"></i>Disposal</p>
               </div>
-              <div class="col-6 col-lg-4">
+              <div class="col-6 col-md-4">
                 <p class="main-content__amenities"><i class="far fa-square pr-1"></i>Balcony</p>
               </div>
-              <div class="col-6 col-lg-4">
+              <div class="col-6 col-md-4">
                 <p class="main-content__amenities"><i class="fas fa-cog pr-1"></i>Gym</p>
               </div>
-              <div class="col-6 col-lg-4">
+              <div class="col-6 col-md-4">
                 <p class="main-content__amenities"><i class="far fa-smile pr-1"></i>Playroom</p>
               </div>
-              <div class="col-6 col-lg-4">
+              <div class="col-6 col-md-4">
                 <p class="main-content__amenities"><i class="fas fa-glass-martini pr-1"></i>Air Bar</p>
               </div>
             </div>
@@ -179,24 +198,31 @@
                 <iframe class="main-content__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.104066007386!2d115.23826581531131!3d-8.68165319376232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1615433371463!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               </div>
             </div>
-            <!-- <ul class="main-content__ul">
-              <li class="main-content__li">Transportation</li>
-              <li class="main-content__li">Restaurants</li>
-              <li class="main-content__li">Shopping</li>
-              <li class="main-content__li">Cafes & Bars</li>
-              <li class="main-content__li">Arts & Entertainment</li>
-              <li class="main-content__li">Fitnes</li>
-            </ul>
-            <iframe class="main-content__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.104066007386!2d115.23826581531131!3d-8.68165319376232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1615433371463!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
             <h2 class="main-content__title pt-5 pb-3">Payment Calculator</h2>
             <div class="row justify-content-between">
-              <div class="col-lg-5 d-flex justify-content-center">
-                <div class="main-content__circle">
-                  <canvas id="myChart" class="main-content__chart" width="400" height="400"></canvas>
+              <div class="col-md-5 d-flex justify-content-center">
+                <canvas id="myChart" class="main-content__chart" width="400" height="400"></canvas>
+                <div class="main-content__circle-value text-center">
+                  $26,669
+                  <span class="main-content__circle-month">per month</span>
                 </div>
               </div>
-              <div class="col-lg-7 d-flex flex-column justify-content-around px-5 pt-5 pt-lg-0">
-                <div class="row">
+              <div class="col-md-7 d-flex flex-column justify-content-center flex-wrap px-5 pt-5 pt-lg-0">
+                <div class="main-content__payment-container d-flex justify-content-between">
+                  <p class="main-content__payment"> Principal and Interest </p>
+                  <p class="main-content__dollar">$23,565</p>
+                </div>
+                <hr class="w-100">
+                <div class="main-content__payment-container d-flex justify-content-between">
+                  <p class="main-content__payment--second">Property Taxes </p>
+                  <p class="main-content__dollar">$1,068</p>
+                </div>
+                <hr class="w-100">
+                <div class="main-content__payment-container d-flex justify-content-between">
+                  <p class="main-content__payment--third">HOA Dues </p>
+                  <p class="main-content__dollar">$2,036</p>
+                </div>
+                <!-- <div class="row">
                   <div class="col-lg-10">
                     <p class="main-content__payment">Principal and Interest </p>
                   </div>
@@ -217,25 +243,25 @@
                   <div class="col-lg-2">
                     <p class="main-content__dollar">$2,036</p>
                   </div>
-                </div>
+                </div> -->
               </div>
-              <div class="col-lg-6 pt-5">
+              <div class="col-md-6 pt-5">
                 <p class="small mb-1 font-weight-bold">Term</p>
-                <select class="selectpicker w-100" id="term" required data-style="btn-white">
+                <select class="selectpicker w-100 border" id="term" required data-style="btn-white">
                   <option selected disabled value="">30 Years Fixed</option>
                   <option>...</option>
                   <option>...</option>
                 </select>
               </div>
-              <div class="col-lg-6 pt-5">
+              <div class="col-md-6 pt-4 pt-md-5">
                 <p class="small mb-1 font-weight-bold">Interest</p>
                 <input type="text" class="form-control" placeholder="4.45%">
               </div>
-              <div class="col-lg-6 pt-4">
+              <div class="col-md-6 pt-4">
                 <p class="small mb-1 font-weight-bold">Home Prices</p>
                 <input type="text" class="form-control" placeholder="$5,198.000">
               </div>
-              <div class="col-lg-6 pt-4">
+              <div class="col-md-6 pt-4">
                 <p class="small mb-1 font-weight-bold">Down Payment</p>
                 <input type="text" class="form-control" placeholder="$5,198.000">
               </div>
@@ -250,81 +276,190 @@
             </nav>
             <div class="tab-content" id="nav-tabContent">
               <div class="tab-pane fade show active" id="nav-elementary" role="tabpanel" aria-labelledby="nav-elementary-tab">
-                <div class="row">
-                  <div class="col-5 font-weight-bold pt-4">School</div>
-                  <div class="col-2 font-weight-bold pt-4">Type</div>
-                  <div class="col-2 font-weight-bold pt-4">Public</div>
-                  <div class="col-3 font-weight-bold pt-4">Rating</div>
-                  <hr class="w-100">
-                  <div class="col-5">Harvest Collegiate High School</div>
-                  <div class="col-2">Public</div>
-                  <div class="col-2">9-11</div>
-                  <div class="col-3">5/5 <i class="fas fa-star pl-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                  <hr class="w-100">
-                  <div class="col-5">Harvest Collegiate High School</div>
-                  <div class="col-2">Public</div>
-                  <div class="col-2">9-11</div>
-                  <div class="col-3">5/5 <i class="fas fa-star pl-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                </div>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th class="border-0 pt-4 px-0">
+                        <div class="font-weight-bold">School</div>
+                      </th>
+                      <th class="border-0 pt-4 px-0">
+                        <div class="font-weight-bold">Type</div>
+                      </th>
+                      <th class="border-0 pt-4 px-0">
+                        <div class="font-weight-bold">Public</div>
+                      </th>
+                      <th class="border-0 pt-4 px-0">
+                        <div class="font-weight-bold">Rating</div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="px-0">
+                        <div class="">Harvest Collegiate High School</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="">Public</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="">9-11</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="d-block d-md-inline-block">5/5 </div>
+                        <i class="fas fa-star pl-0 pl-md-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="px-0">
+                        <div class="">Harvest Collegiate High School</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="">Public</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="">9-11</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="d-block d-md-inline-block">5/5 </div>
+                        <i class="fas fa-star pl-0 pl-md-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
               <div class="tab-pane fade" id="nav-middle" role="tabpanel" aria-labelledby="nav-middle-tab">
-                <div class="row">
-                  <div class="col-5 font-weight-bold pt-4">School</div>
-                  <div class="col-2 font-weight-bold pt-4">Type</div>
-                  <div class="col-2 font-weight-bold pt-4">Public</div>
-                  <div class="col-3 font-weight-bold pt-4">Rating</div>
-                  <hr class="w-100">
-                  <div class="col-5">Harvest Collegiate High School</div>
-                  <div class="col-2">Public</div>
-                  <div class="col-2">9-11</div>
-                  <div class="col-3">5/5 <i class="fas fa-star pl-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                  <hr class="w-100">
-                  <div class="col-5">Harvest Collegiate High School</div>
-                  <div class="col-2">Public</div>
-                  <div class="col-2">9-11</div>
-                  <div class="col-3">5/5 <i class="fas fa-star pl-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                </div>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th class="border-0 pt-4 px-0">
+                        <div class="font-weight-bold">School</div>
+                      </th>
+                      <th class="border-0 pt-4 px-0">
+                        <div class="font-weight-bold">Type</div>
+                      </th>
+                      <th class="border-0 pt-4 px-0">
+                        <div class="font-weight-bold">Public</div>
+                      </th>
+                      <th class="border-0 pt-4 px-0">
+                        <div class="font-weight-bold">Rating</div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="px-0">
+                        <div class="">Harvest Collegiate High School</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="">Public</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="">9-11</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="d-block d-md-inline-block">5/5 </div>
+                        <i class="fas fa-star pl-0 pl-md-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="px-0">
+                        <div class="">Harvest Collegiate High School</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="">Public</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="">9-11</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="d-block d-md-inline-block">5/5 </div>
+                        <i class="fas fa-star pl-0 pl-md-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
               <div class="tab-pane fade" id="nav-high" role="tabpanel" aria-labelledby="nav-high-tab">
-                <div class="row">
-                  <div class="col-5 font-weight-bold pt-4">School</div>
-                  <div class="col-2 font-weight-bold pt-4">Type</div>
-                  <div class="col-2 font-weight-bold pt-4">Public</div>
-                  <div class="col-3 font-weight-bold pt-4">Rating</div>
-                  <hr class="w-100">
-                  <div class="col-5">Harvest Collegiate High School</div>
-                  <div class="col-2">Public</div>
-                  <div class="col-2">9-11</div>
-                  <div class="col-3">5/5 <i class="fas fa-star pl-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                  <hr class="w-100">
-                  <div class="col-5">Harvest Collegiate High School</div>
-                  <div class="col-2">Public</div>
-                  <div class="col-2">9-11</div>
-                  <div class="col-3">5/5 <i class="fas fa-star pl-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                </div>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th class="border-0 pt-4 px-0">
+                        <div class="font-weight-bold">School</div>
+                      </th>
+                      <th class="border-0 pt-4 px-0">
+                        <div class="font-weight-bold">Type</div>
+                      </th>
+                      <th class="border-0 pt-4 px-0">
+                        <div class="font-weight-bold">Public</div>
+                      </th>
+                      <th class="border-0 pt-4 px-0">
+                        <div class="font-weight-bold">Rating</div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="px-0">
+                        <div class="">Harvest Collegiate High School</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="">Public</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="">9-11</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="d-block d-md-inline-block">5/5 </div>
+                        <i class="fas fa-star pl-0 pl-md-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="px-0">
+                        <div class="">Harvest Collegiate High School</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="">Public</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="">9-11</div>
+                      </td>
+                      <td class="px-0">
+                        <div class="d-block d-md-inline-block">5/5 </div>
+                        <i class="fas fa-star pl-0 pl-md-4"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
-
           </div>
-          <div class="col-lg-4 side-content pt-5 pt-lg-0">
-            <p class="main-content__title">Listed By</p>
-            <div class="card side-content__card">
-              <div class="row no-gutters">
-                <div class="col-3">
-                  <img src="img/agent-4.jpg" alt="Agents" class="w-100">
-                </div>
-                <div class="col-9">
-                  <div class="card-body side-content__body">
-                    <h5 class="card-title side-content__title">Erika Tillman</h5>
-                    <h5 class="card-title side-content__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
-                    <p class="card-text side-content__text">erika.tillman@resideo.com</p>
-                    <p class="card-text side-content__text"><i class="fas fa-phone"></i> (123) 456-7890</p>
+          <div class="col-lg-4 side-content pt-5 pt-lg-0 position-relative">
+            <div class="side-content__wrapper">
+              <p class="main-content__title">Listed By</p>
+              <div class="card side-content__card">
+                <div class="row no-gutters">
+                  <div class="col-3">
+                    <img src="img/agent-4.jpg" alt="Agents" class="w-100">
+                  </div>
+                  <div class="col-9">
+                    <div class="card-body side-content__body">
+                      <h5 class="card-title side-content__title">Erika Tillman</h5>
+                      <h5 class="card-title side-content__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                      <p class="card-text side-content__text">erika.tillman@resideo.com</p>
+                      <p class="card-text side-content__text"><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    </div>
                   </div>
                 </div>
               </div>
+              <div class="row no-gutters pt-3 pt-lg-0">
+                <div class="col-6 col-lg-6">
+                  <a href="contact-us.php" class="btn btn-custom--dark w-100"><i class="far fa-envelope pr-1"></i> CONTACT AGENT</a>
+                </div>
+                <div class="col-6 col-lg-6">
+                  <a href="contact-us.php" class="btn btn-primary btn-custom w-100"><i class="far fa-calendar-check pr-1"></i> REQUEST TOUR</a>
+                </div>
+              </div>
             </div>
-            <a href="contact-us.php" class="btn btn-custom--dark"><i class="far fa-envelope pr-1"></i> CONTACT AGENT</a>
-            <a href="contact-us.php" class="btn btn-primary btn-custom"><i class="far fa-calendar-check pr-1"></i> REQUEST TOUR</a>
           </div>
         </div>
       </div>
@@ -339,6 +474,8 @@
   <script src="js/Chart.js"></script>
   <!-- Timedoor preset -->
   <script src="js/tmdrPreset.js"></script>
+  <!-- Lightcase -->
+  <script src="js/lightcase.js"></script>
   <!-- CUSTOM JS -->
   <script src="js/pages/property-detail.js"></script>
 </body>

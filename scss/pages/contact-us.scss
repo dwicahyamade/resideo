@@ -1,4 +1,4 @@
-@import '../config.scss';
+@import '../_config.scss';
 @import '../plugin/_bootstrap-select.scss';
 
 body{
@@ -88,11 +88,13 @@ body{
   &__title{
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 24px;
   }
 
   &__subtitle{
     font-size: 20px;
     font-weight: 700;
+    margin-bottom: 16px;
   }
 
   &__desc{

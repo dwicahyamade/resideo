@@ -44,50 +44,15 @@
         <div class="gallery__bg">
           <img src="img/contact-bg-2.jpg" alt="resideo" class="gallery__img">
         </div>
-        <!-- <div class="gallery__text">
-          <p class="gallery__title">Our Offices</p>
-          <div class="row">
-            <div class="col-lg-4">
-              <p class="gallery__subtitle">Los Angeles</p>
-              <p class="gallery__desc">
-                90 Fifth Avenue, 3rd Floor <br>
-                San Fransisco, CA 1980 <br>
-                <span class="gallery__desc--small">
-                  (123) 456-7890 <br>
-                  office-la@resideo.com </span>
-              </p>
-            </div>
-            <div class="col-lg-4">
-              <p class="gallery__subtitle">New York</p>
-              <p class="gallery__desc">
-                90 Fifth Avenue, 3rd Floor <br>
-                San Fransisco, CA 1980 <br>
-                <span class="gallery__desc--small">
-                  (123) 456-7890 <br>
-                  office-la@resideo.com </span>
-              </p>
-            </div>
-            <div class="col-lg-4">
-              <p class="gallery__subtitle">San Fransisco</p>
-              <p class="gallery__desc">
-                90 Fifth Avenue, 3rd Floor <br>
-                San Fransisco, CA 1980 <br>
-                <span class="gallery__desc--small">
-                  (123) 456-7890 <br>
-                  office-la@resideo.com </span>
-              </p>
-            </div>
-          </div>
-        </div> -->
       </div>
     </section>
 
     <section class="address">
       <div class="container address__bg">
-        <p class="address__title">Our Offices</p>
+        <h2 class="address__title">Our Offices</h2>
         <div class="row">
           <div class="col-md-4">
-            <p class="address__subtitle">Los Angeles</p>
+            <h3 class="address__subtitle">Los Angeles</h3>
             <p class="address__desc">
               90 Fifth Avenue, 3rd Floor <br>
               San Fransisco, CA 1980 <br>
@@ -97,7 +62,7 @@
             </p>
           </div>
           <div class="col-md-4">
-            <p class="address__subtitle">New York</p>
+            <h3 class="address__subtitle">New York</h3>
             <p class="address__desc">
               90 Fifth Avenue, 3rd Floor <br>
               San Fransisco, CA 1980 <br>
@@ -107,7 +72,7 @@
             </p>
           </div>
           <div class="col-md-4">
-            <p class="address__subtitle">San Fransisco</p>
+            <h3 class="address__subtitle">San Fransisco</h3>
             <p class="address__desc">
               90 Fifth Avenue, 3rd Floor <br>
               San Fransisco, CA 1980 <br>
@@ -123,7 +88,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <p class="form__title">Send Us A Message</p>
+            <h2 class="form__title">Send Us A Message</h2>
             <form action="" method="POST">
               <div class="row">
                 <div class="col-lg-6 pt-3">
@@ -145,15 +110,15 @@
                 <div class="col-lg-12 pt-3">
                   <textarea class="w-100 form__textarea border" name="messages" id="messages" rows="6"></textarea>
                 </div>
-                <div class="col-lg-6 pt-3">
+                <div class="col-lg-4 pt-3">
                   <button type="submit" class="btn btn-custom--dark">SEND MESSAGE</button>
                 </div>
               </div>
             </form>
           </div>
           <div class="col-lg-6">
-            <div class="row pt-5">
-              <p class="col-lg-6 form__title">Our Locations</p>
+            <div class="row pt-5 pt-lg-0">
+              <h2 class="col-lg-6 form__title">Our Locations</h2>
               <div class="col-lg-6">
                 <select class="selectpicker" id="Buy" required data-style="btn-white">
                   <option selected value="">Los Angeles</option>

@@ -1,6 +1,6 @@
 // sass --watch scss:css
 
-@import 'config.scss';
+@import '_config.scss';
 
 @import 'plugin/_bootstrap.scss';
 @import 'plugin/_bsnav.min.scss';
@@ -133,6 +133,10 @@ body{
     background-color: $primaryColor;
   }
 
+}
+
+.navbar-nav .nav-item:hover > .nav-link{
+  color: inherit;
 }
 
 .navbar{

@@ -1,12 +1,8 @@
-@import '../config.scss';
+@import '../_config.scss';
 @import '../plugin/_bootstrap-select.scss';
 
 body{
   background-color: #F7F7F7;
-}
-
-.bootstrap-select{
-  width: 100% !important;
 }
 
 main{
@@ -20,8 +16,40 @@ main{
 .search{
   &__icon{
     background-color: #fff;
-    border: 1px solid #ced4da;
+    border: none;
     border-left: 0;
+  }
+
+  &__form{
+    display: inline-block;
+    width: 80%;
+  }
+
+  &__dropdown{
+    display: inline-block;
+    padding-left: 15px;
+  }
+
+  @media (max-width: 991px){
+    &__form{
+      display: inline-block;
+      width: 77%;
+    }
+  }
+
+  @media (max-width: 768px){
+    &__form{
+      display: inline-block;
+      width: 77%;
+    }
+  }
+
+  @media (max-width: 576px){
+    &__dropdown{
+      display: inline-block;
+      position: absolute;
+      right: 15px;
+    }
   }
 }
 
@@ -31,6 +59,33 @@ main{
   &__result{
     font-size: 24px;
     font-weight: 700;
+  }
+
+  &__select{
+    width: 65% !important;
+  }
+
+  &__dropdown{
+    display: inline-block;
+    padding-left: 15px;
+  }
+
+  @media (max-width: 768px){
+    &__select{
+      width: 85% !important;
+    }
+  }
+
+  @media (max-width: 576px){
+    &__dropdown{
+      display: inline-block;
+      position: absolute;
+      right: 15px;
+    }
+
+    &__select{
+      width: 77% !important;
+    }
   }
 }
 
@@ -42,6 +97,16 @@ main{
   overflow-y: scroll;
   scrollbar-width: thin;
   scrollbar-color: $tertiaryColor #FFF;
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #FFF;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: $tertiaryColor;
+  }
 
   &__browse{
     font-weight: 700;
@@ -135,6 +200,11 @@ main{
   &__map{
     width: 100%;
     height: 95%;
+  }
+
+  @media (max-width: 768px){
+    padding-top: 0;
+    height: 500px;
   }
 }
 

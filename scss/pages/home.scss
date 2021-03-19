@@ -1,4 +1,4 @@
-@import '../config.scss';
+@import '../_config.scss';
 @import '../plugin/_swiper-bundle.scss';
 
 .section-title{
@@ -110,6 +110,8 @@
 
     .slider-container{
      bottom: -100px;
+     height: 108px;
+     transform: translate(-50%, 0);
     }
 
     &__img{
@@ -166,6 +168,7 @@
 
   &__img-overlay{
     line-height: 20px;
+    top: auto;
   }
 
   &__text-container{
@@ -186,6 +189,7 @@
   &__text{
     font-size: 14px;
     color: $tertiaryColor;
+    margin: 0;
   }
 }
 
@@ -257,7 +261,7 @@
     bottom: -80px;
     left: 50%;
     transform: translateX(-50%);
-    width: 150px;
+    width: 170px;
     height: 50px;
   }
 
@@ -281,7 +285,7 @@
       display: none;
     }
 
-    &:focus-visible{
+    &:focus-visible, &:focus{
       outline: none;
     }
   }
@@ -323,18 +327,21 @@
   padding-top: 100px;
   @include imageRatio(255, 300);
 
-  &__image-container{
-    margin-bottom: 50px;
-    overflow: hidden;
+  &__wrapper{
     &:hover .agents__image{
       transform: scale(1.1);
-    } 
-    &:hover + .agents__text{
+    }
+    &:hover .agents__text{
       padding-bottom: 50px;
         .agents__social{
           opacity: 1;
         }
     }
+  }
+
+  &__image-container{
+    margin-bottom: 50px;
+    overflow: hidden;
   }
 
   &__image{

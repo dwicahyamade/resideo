@@ -31,25 +31,23 @@
         <div class="col-12 col-md-6">
           <div class="left-content">
             <div class="row search">
-              <div class="col-3">
-                <select class="selectpicker" id="Buy" required data-style="btn-white">
+              <div class="col-12 col-sm-3 order-1 order-sm-0">
+                <select class="selectpicker w-100" id="Buy" required data-style="btn-white">
                   <option selected disabled value="">Buy</option>
                   <option>...</option>
                   <option>...</option>
                 </select>
               </div>
-              <div class="col-7 px-0">
-                <form action="#" method="POST">
+              <div class="col-12 col-sm-9 pt-3 p-sm-0 px-lg-0">
+                <form action="#" method="POST" class="search__form">
                   <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Search by City, Neighbothood, or Adress">
+                    <input type="text" class="form-control border-0" placeholder="Search by City, Neighbothood, or Adress">
                     <div class="input-group-append">
                       <button class="btn btn-outline-secondary search__icon" type="button" id="button-addon2"><i class="fa fa-search"></i></button>
                     </div>
                   </div>
                 </form>
-              </div>
-              <div class="col-2">
-                <div class="dropdown text-right">
+                <div class="dropdown search__dropdown">
                   <button class="btn btn-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-sliders-h"></i>
                   </button>
@@ -62,18 +60,16 @@
               </div>
             </div>
             <div class="row results">
-              <div class="col-7">
+              <div class="col-12 col-md-6 col-lg-7">
                 <h1 class="results__result">1,684 Results</h1>
               </div>
-              <div class="col-3 px-0">
-                <select class="selectpicker" id="sort" required data-style="btn-white">
+              <div class="col-12 col-md-6 col-lg-5 px-md-0">
+                <select class="selectpicker results__select" id="sort" required data-style="btn-white">
                   <option selected disabled value="">Default Sort</option>
                   <option>...</option>
                   <option>...</option>
                 </select>
-              </div>
-              <div class="col-2">
-                <div class="dropdown text-right">
+                <div class="dropdown results__dropdown">
                   <button class="btn btn-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="far fa-map"></i>
                   </button>

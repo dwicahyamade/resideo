@@ -1,5 +1,6 @@
-@import '../config.scss';
+@import '../_config.scss';
 @import '../plugin/_bootstrap-select.scss';
+@import '../plugin/_lightcase.scss';
 
 body{
   background-color: #F7F7F7;
@@ -20,7 +21,7 @@ body{
   }
   &.active{
   background-color: transparent;
-  border: none;
+  border: 1px solid transparent;
   // border-bottom: 2px solid black;
   }
   &:focus-visible{
@@ -41,11 +42,7 @@ body{
   }
 }
 
-.header-right{
-  & p{
-    display: inline-block;
-  }
-  
+.header-right{  
   &__prices{
     font-size: 24px;
     font-weight: 700;
@@ -54,6 +51,8 @@ body{
   &__desc{
     font-size: 24px;
     font-weight: 400;
+    display: inline-block;
+    padding-right: 6px;
   }
 
   &__small{
@@ -72,6 +71,33 @@ body{
     width: 100%;
     object-position: top;
     object-fit: cover;
+  }
+
+  &__view-photos{
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    color: $primaryColor;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .3s;
+    &:hover, &:focus, &:focus-visible{
+      color: #8d8d8d;
+      text-decoration: none;
+      outline: none;
+    }
+  }
+
+  @media (max-width: 991px){
+    &__view-photos{
+      font-size: 12px;
+      padding: 10px 15px;
+    }
   }
 }
 
@@ -148,7 +174,6 @@ body{
     }
     &.active{
       background-color: transparent;
-      border: none;
       border-bottom: none;
     }
   }
@@ -156,6 +181,22 @@ body{
   &__map{
     width: 100%;
     height: 400px;
+  }
+
+  &__circle-value{
+    position: absolute;
+    top: 50%;
+    display: block;
+    transform: translateY(-50%);
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  &__circle-month{
+    font-size: 12px;
+    display: block;
+    font-weight: 400;
+    color: $tertiaryColor;
   }
 
   &__chart{
@@ -168,14 +209,13 @@ body{
     position: relative;
     &::before{
       content: '';
-      position: absolute;
-      display: block;
+      display: inline-block;
       width: 15px;
       height: 3px;
-      top: 50%;
-      left: -25px;
-      transform: translateY(-50%);
       background-color: #0070C9;
+      vertical-align: middle;
+      margin-top: 0;
+      margin-right: 10px;
     }
 
     &--second{
@@ -193,6 +233,11 @@ body{
     }
   }
 
+  .main-content__dash{
+    color: red;
+    font-weight: 700;
+  }
+
   &__dollar{
     font-weight: 700;
   }
@@ -203,19 +248,31 @@ body{
   
   &__school-type{
     font-size: 12px;
-    color: #000;
+    color: #8d8d8d;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 0;
+    margin-right: 20px;
+    transition: .3s;
+    &:hover{
+      color: #000;
+    }
     &.active{
       background-color: transparent;
+      color: #000;
       border: none;
       border-bottom: 2px solid black !important;
+      padding-bottom: 5px;
     }
   }
   
 }
 
 .side-content{
+  &__wrapper{
+    position: sticky;
+    top: 100px;
+  }
   &__card{
     background-color: transparent;
     border: none;
@@ -238,4 +295,8 @@ body{
     margin: 0;
     color: $tertiaryColor;
   }
+}
+
+.bungkus{
+  position: sticky;
 }

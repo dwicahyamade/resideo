@@ -114,11 +114,9 @@
             <a href="property-detail.php" class="card properties__image-container text-white">
               <img src="img/prop-4-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
-                <div class="card-text-container properties__text-container">
-                  <h3 class="properties__title">Chic Apartement In Downtown</h3>
-                  <p class="properties__prices">$890,000</p>
-                  <p class="properties__text">2 BD | 2 BA | 920 SF</p>
-                </div>
+                <h3 class="properties__title">Chic Apartement In Downtown</h3>
+                <p class="properties__prices">$890,000</p>
+                <p class="properties__text">2 BD | 2 BA | 920 SF</p>
               </div>
             </a>
           </div>
@@ -126,11 +124,9 @@
             <a href="property-detail.php" class="card properties__image-container text-white">
               <img src="img/prop-5-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
-                <div class="card-text-container properties__text-container">
-                  <h3 class="properties__title">Colorful Little Apartement</h3>
-                  <p class="properties__prices">$2,675</p>
-                  <p class="properties__text">1 BD | 2 BA | 500 SF</p>
-                </div>
+                <h3 class="properties__title">Colorful Little Apartement</h3>
+                <p class="properties__prices">$2,675</p>
+                <p class="properties__text">1 BD | 2 BA | 500 SF</p>
               </div>
             </a>
           </div>
@@ -138,11 +134,9 @@
             <a href="property-detail.php" class="card properties__image-container text-white">
               <img src="img/prop-6-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
-                <div class="card-text-container properties__text-container">
-                  <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
-                  <p class="properties__prices">$960,000</p>
-                  <p class="properties__text">2 BD | 2 BA | 870 SF</p>
-                </div>
+                <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
+                <p class="properties__prices">$960,000</p>
+                <p class="properties__text">2 BD | 2 BA | 870 SF</p>
               </div>
             </a>
           </div>
@@ -150,11 +144,9 @@
             <a href="property-detail.php" class="card properties__image-container text-white">
               <img src="img/prop-10-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
-                <div class="card-text-container properties__text-container">
-                  <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
-                  <p class="properties__prices">$960,000</p>
-                  <p class="properties__text">2 BD | 2 BA | 870 SF</p>
-                </div>
+                <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
+                <p class="properties__prices">$960,000</p>
+                <p class="properties__text">2 BD | 2 BA | 870 SF</p>
               </div>
             </a>
           </div>
@@ -162,11 +154,9 @@
             <a href="property-detail.php" class="card properties__image-container text-white">
               <img src="img/prop-11-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
-                <div class="card-text-container properties__text-container">
-                  <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
-                  <p class="properties__prices">$960,000</p>
-                  <p class="properties__text">2 BD | 2 BA | 870 SF</p>
-                </div>
+                <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
+                <p class="properties__prices">$960,000</p>
+                <p class="properties__text">2 BD | 2 BA | 870 SF</p>
               </div>
             </a>
           </div>
@@ -174,11 +164,9 @@
             <a href="property-detail.php" class="card properties__image-container text-white">
               <img src="img/prop-12-1-gallery.jpg" class="card-img properties__image" alt="Apartement">
               <div class="card-img-overlay properties__img-overlay">
-                <div class="card-text-container properties__text-container">
-                  <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
-                  <p class="properties__prices">$960,000</p>
-                  <p class="properties__text">2 BD | 2 BA | 870 SF</p>
-                </div>
+                <h3 class="properties__title">Cozy Two Bedroom Apartement</h3>
+                <p class="properties__prices">$960,000</p>
+                <p class="properties__text">2 BD | 2 BA | 870 SF</p>
               </div>
             </a>
           </div>
@@ -261,7 +249,7 @@
           Meet the best real estate agents
         </p>
         <div class="row">
-          <div class="col-sm-6 col-lg-3">
+          <div class="col-sm-6 col-lg-3 agents__wrapper">
             <div class="agents__image-container">
               <img src="img/agent-1.jpg" alt="resideo" class="agents__image text-center">
             </div>
@@ -276,7 +264,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-3">
+          <div class="col-sm-6 col-lg-3 agents__wrapper">
             <div class="agents__image-container">
               <img src="img/agent-2.jpg" alt="resideo" class="agents__image">
             </div>
@@ -291,7 +279,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-3">
+          <div class="col-sm-6 col-lg-3 agents__wrapper">
             <div class="agents__image-container">
               <img src="img/agent-3.jpg" alt="resideo" class="agents__image">
             </div>
@@ -306,7 +294,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-3">
+          <div class="col-sm-6 col-lg-3 agents__wrapper">
             <div class="agents__image-container">
               <img src="img/agent-4.jpg" alt="resideo" class="agents__image">
             </div>
